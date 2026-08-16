@@ -1,0 +1,41 @@
+name: Daily German Word
+
+# 每天自動產生一個新的德文單字筆記
+on:
+  schedule:
+    # UTC 06:00 = 柏林時間夏令 08:00 / 冬令 07:00（早上）
+    - cron: "0 6 * * *"
+  workflow_dispatch:  # 允許在 GitHub 網頁上手動觸發
+
+# 讓 workflow 有權限 push commit 回 repo
+permissions:
+  contents: write
+
+jobs:
+  new-word:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generate today's word
+        run: python scripts/daily_word.py
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "Tai-An Chen"
+          git config user.email "soniccol@gmail.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "沒有變更，今天已經產生過了。"
+          else
+            DAY=$(date -u +%Y-%m-%d)
+            git commit -m "📖 Wort des Tages: ${DAY}"
+            git push
+            echo "已推送今日單字。"
+          fi
