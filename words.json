@@ -1,42 +1,4502 @@
 [
-  {"word": "die Gelegenheit", "plural": "die Gelegenheiten", "type": "Nomen", "level": "B1", "zh": "機會、時機", "example": "Ich bin mit dem Chancenkarte-Visum nach Deutschland gekommen, um neue Gelegenheiten zu finden.", "example_zh": "我用機會卡簽證來德國，為了尋找新的機會。"},
-  {"word": "sich bewerben", "plural": "", "type": "Verb", "level": "B1", "zh": "應徵、申請", "example": "Ich bewerbe mich zurzeit um eine Stelle als Softwareentwickler.", "example_zh": "我目前正在應徵軟體開發的職位。"},
-  {"word": "der Lebenslauf", "plural": "die Lebensläufe", "type": "Nomen", "level": "B1", "zh": "履歷", "example": "Bitte senden Sie Ihren Lebenslauf und ein Anschreiben.", "example_zh": "請寄出您的履歷和求職信。"},
-  {"word": "das Vorstellungsgespräch", "plural": "die Vorstellungsgespräche", "type": "Nomen", "level": "B2", "zh": "面試", "example": "Nächste Woche habe ich ein Vorstellungsgespräch bei einer Firma in Essen.", "example_zh": "下週我在埃森的一家公司有面試。"},
-  {"word": "zuverlässig", "plural": "", "type": "Adjektiv", "level": "B1", "zh": "可靠的", "example": "Meine Kollegen sagen, dass ich zuverlässig und pünktlich bin.", "example_zh": "我的同事說我可靠又準時。"},
-  {"word": "die Erfahrung", "plural": "die Erfahrungen", "type": "Nomen", "level": "B1", "zh": "經驗", "example": "Ich habe mehrere Jahre Erfahrung in der IT-Branche.", "example_zh": "我在資訊科技業有好幾年的經驗。"},
-  {"word": "die Fähigkeit", "plural": "die Fähigkeiten", "type": "Nomen", "level": "B2", "zh": "能力、技能", "example": "Programmieren ist eine meiner wichtigsten Fähigkeiten.", "example_zh": "程式設計是我最重要的能力之一。"},
-  {"word": "die Kündigung", "plural": "die Kündigungen", "type": "Nomen", "level": "B2", "zh": "解僱、辭職通知", "example": "Die Kündigungsfrist beträgt in Deutschland oft drei Monate.", "example_zh": "在德國，離職通知期通常是三個月。"},
-  {"word": "das Gehalt", "plural": "die Gehälter", "type": "Nomen", "level": "B1", "zh": "薪水", "example": "Über das Gehalt können wir im zweiten Gespräch sprechen.", "example_zh": "薪水我們可以在第二次面談時討論。"},
-  {"word": "die Aufenthaltserlaubnis", "plural": "die Aufenthaltserlaubnisse", "type": "Nomen", "level": "B2", "zh": "居留許可", "example": "Mit einem Arbeitsvertrag kann ich eine Aufenthaltserlaubnis beantragen.", "example_zh": "有了工作合約，我就可以申請居留許可。"},
-  {"word": "der Termin", "plural": "die Termine", "type": "Nomen", "level": "B1", "zh": "約定、預約", "example": "Ich muss einen Termin bei der Ausländerbehörde vereinbaren.", "example_zh": "我必須跟外國人管理局約一個時間。"},
-  {"word": "die Behörde", "plural": "die Behörden", "type": "Nomen", "level": "B2", "zh": "官方機關、當局", "example": "In Deutschland muss man oft mit vielen Behörden Kontakt haben.", "example_zh": "在德國常常必須跟許多政府機關打交道。"},
-  {"word": "anspruchsvoll", "plural": "", "type": "Adjektiv", "level": "B2", "zh": "有要求的、高難度的", "example": "Die neue Aufgabe ist anspruchsvoll, aber sehr interessant.", "example_zh": "這個新任務很有挑戰性，但非常有趣。"},
-  {"word": "die Herausforderung", "plural": "die Herausforderungen", "type": "Nomen", "level": "B2", "zh": "挑戰", "example": "Ein neues Land und eine neue Sprache sind eine große Herausforderung.", "example_zh": "新的國家和新的語言是很大的挑戰。"},
-  {"word": "sich verbessern", "plural": "", "type": "Verb", "level": "B1", "zh": "改善、進步", "example": "Ich möchte mein Deutsch jeden Tag ein bisschen verbessern.", "example_zh": "我想每天讓我的德文進步一點點。"},
-  {"word": "die Muttersprache", "plural": "die Muttersprachen", "type": "Nomen", "level": "B1", "zh": "母語", "example": "Meine Muttersprache ist Chinesisch, aber ich lerne fleißig Deutsch.", "example_zh": "我的母語是中文，但我努力學德文。"},
-  {"word": "fließend", "plural": "", "type": "Adjektiv", "level": "B2", "zh": "流利的", "example": "Mein Ziel ist es, bald fließend Deutsch zu sprechen.", "example_zh": "我的目標是很快能說一口流利的德文。"},
-  {"word": "die Voraussetzung", "plural": "die Voraussetzungen", "type": "Nomen", "level": "B2", "zh": "前提、條件", "example": "Gute Deutschkenntnisse sind eine Voraussetzung für viele Jobs.", "example_zh": "良好的德文能力是許多工作的前提。"},
-  {"word": "der Vertrag", "plural": "die Verträge", "type": "Nomen", "level": "B1", "zh": "合約", "example": "Bevor ich unterschreibe, lese ich den Vertrag genau.", "example_zh": "在簽名之前，我會仔細閱讀合約。"},
-  {"word": "berufstätig", "plural": "", "type": "Adjektiv", "level": "B2", "zh": "在職的、就業的", "example": "Ich möchte so schnell wie möglich wieder berufstätig sein.", "example_zh": "我想盡快重新就業。"},
-  {"word": "die Kenntnisse", "plural": "", "type": "Nomen", "level": "B1", "zh": "知識、能力（常用複數）", "example": "Für diese Stelle braucht man gute Deutsch- und Englischkenntnisse.", "example_zh": "這個職位需要良好的德語和英語能力。"},
-  {"word": "erledigen", "plural": "", "type": "Verb", "level": "B1", "zh": "辦理、完成（事情）", "example": "Ich muss heute noch einige wichtige Dinge erledigen.", "example_zh": "我今天還必須辦完一些重要的事。"},
-  {"word": "der Fortschritt", "plural": "die Fortschritte", "type": "Nomen", "level": "B2", "zh": "進步、進展", "example": "Nach dem B2-Kurs merke ich große Fortschritte.", "example_zh": "上完 B2 課程後，我察覺到很大的進步。"},
-  {"word": "üblich", "plural": "", "type": "Adjektiv", "level": "B2", "zh": "常見的、慣常的", "example": "In Deutschland ist es üblich, pünktlich zu sein.", "example_zh": "在德國，準時是很平常的事。"},
-  {"word": "die Umgebung", "plural": "die Umgebungen", "type": "Nomen", "level": "B1", "zh": "周遭環境、附近", "example": "Essen und die Umgebung im Ruhrgebiet gefallen mir gut.", "example_zh": "埃森和魯爾區周邊我很喜歡。"},
-  {"word": "sich gewöhnen an", "plural": "", "type": "Verb", "level": "B2", "zh": "習慣於", "example": "Langsam gewöhne ich mich an das Leben in Deutschland.", "example_zh": "我慢慢習慣了在德國的生活。"},
-  {"word": "die Unterlagen", "plural": "", "type": "Nomen", "level": "B2", "zh": "文件、資料（複數）", "example": "Für die Bewerbung müssen alle Unterlagen vollständig sein.", "example_zh": "申請時所有文件都必須齊全。"},
-  {"word": "vereinbaren", "plural": "", "type": "Verb", "level": "B2", "zh": "約定、商定", "example": "Können wir einen Termin für nächste Woche vereinbaren?", "example_zh": "我們可以約下週的一個時間嗎？"},
-  {"word": "die Stelle", "plural": "die Stellen", "type": "Nomen", "level": "B1", "zh": "職位、工作缺", "example": "Ich habe eine interessante Stelle im Internet gefunden.", "example_zh": "我在網路上找到一個有趣的職缺。"},
-  {"word": "ehrgeizig", "plural": "", "type": "Adjektiv", "level": "B2", "zh": "有雄心的、上進的", "example": "Ich bin ehrgeizig und will in meinem Beruf weiterkommen.", "example_zh": "我很有企圖心，想在職涯上更進一步。"},
-  {"word": "die Weiterbildung", "plural": "die Weiterbildungen", "type": "Nomen", "level": "B2", "zh": "進修、在職訓練", "example": "Diese Firma bietet ihren Mitarbeitern viele Weiterbildungen an.", "example_zh": "這家公司提供員工很多進修機會。"},
-  {"word": "das Ruhrgebiet", "plural": "", "type": "Nomen", "level": "B1", "zh": "魯爾區（德國西部工業區）", "example": "Das Ruhrgebiet war früher für Kohle und Stahl bekannt.", "example_zh": "魯爾區以前以煤礦和鋼鐵聞名。"},
-  {"word": "beantragen", "plural": "", "type": "Verb", "level": "B2", "zh": "申請（正式）", "example": "Ich möchte eine Steuernummer beantragen.", "example_zh": "我想申請一個稅號。"},
-  {"word": "zuständig", "plural": "", "type": "Adjektiv", "level": "B2", "zh": "負責的、主管的", "example": "Welche Behörde ist für die Anmeldung zuständig?", "example_zh": "哪個機關負責戶籍登記？"},
-  {"word": "die Anmeldung", "plural": "die Anmeldungen", "type": "Nomen", "level": "B1", "zh": "登記、報到", "example": "Nach dem Umzug muss man eine Anmeldung beim Bürgeramt machen.", "example_zh": "搬家後必須到市民局辦理戶籍登記。"},
-  {"word": "empfehlen", "plural": "", "type": "Verb", "level": "B1", "zh": "推薦", "example": "Können Sie mir einen guten Deutschkurs empfehlen?", "example_zh": "您能推薦我一個好的德文課程嗎？"},
-  {"word": "der Eindruck", "plural": "die Eindrücke", "type": "Nomen", "level": "B2", "zh": "印象", "example": "Im Vorstellungsgespräch möchte ich einen guten Eindruck machen.", "example_zh": "在面試中我想留下好印象。"},
-  {"word": "selbstständig", "plural": "", "type": "Adjektiv", "level": "B2", "zh": "獨立的、自主的", "example": "Ich kann selbstständig arbeiten und Probleme allein lösen.", "example_zh": "我能獨立工作，並且自己解決問題。"},
-  {"word": "die Bewerbung", "plural": "die Bewerbungen", "type": "Nomen", "level": "B1", "zh": "求職申請", "example": "Ich habe diese Woche drei Bewerbungen abgeschickt.", "example_zh": "我這週寄出了三份求職申請。"},
-  {"word": "verfügbar", "plural": "", "type": "Adjektiv", "level": "B2", "zh": "可用的、有空的", "example": "Ab dem ersten September bin ich verfügbar.", "example_zh": "從九月一日起我就有空（可上工）。"}
+ {
+  "word": "die Gelegenheit",
+  "plural": "die Gelegenheiten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "機會、時機",
+  "example": "Ich bin mit dem Chancenkarte-Visum nach Deutschland gekommen, um neue Gelegenheiten zu finden.",
+  "example_zh": "我用機會卡簽證來德國，為了尋找新的機會。"
+ },
+ {
+  "word": "sich bewerben",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "應徵、申請",
+  "example": "Ich bewerbe mich zurzeit um eine Stelle als Softwareentwickler.",
+  "example_zh": "我目前正在應徵軟體開發的職位。"
+ },
+ {
+  "word": "der Lebenslauf",
+  "plural": "die Lebensläufe",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "履歷",
+  "example": "Bitte senden Sie Ihren Lebenslauf und ein Anschreiben.",
+  "example_zh": "請寄出您的履歷和求職信。"
+ },
+ {
+  "word": "das Vorstellungsgespräch",
+  "plural": "die Vorstellungsgespräche",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "面試",
+  "example": "Nächste Woche habe ich ein Vorstellungsgespräch bei einer Firma in Essen.",
+  "example_zh": "下週我在埃森的一家公司有面試。"
+ },
+ {
+  "word": "zuverlässig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "可靠的",
+  "example": "Meine Kollegen sagen, dass ich zuverlässig und pünktlich bin.",
+  "example_zh": "我的同事說我可靠又準時。"
+ },
+ {
+  "word": "die Erfahrung",
+  "plural": "die Erfahrungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "經驗",
+  "example": "Ich habe mehrere Jahre Erfahrung in der IT-Branche.",
+  "example_zh": "我在資訊科技業有好幾年的經驗。"
+ },
+ {
+  "word": "die Fähigkeit",
+  "plural": "die Fähigkeiten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "能力、技能",
+  "example": "Programmieren ist eine meiner wichtigsten Fähigkeiten.",
+  "example_zh": "程式設計是我最重要的能力之一。"
+ },
+ {
+  "word": "die Kündigung",
+  "plural": "die Kündigungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "解僱、辭職通知",
+  "example": "Die Kündigungsfrist beträgt in Deutschland oft drei Monate.",
+  "example_zh": "在德國，離職通知期通常是三個月。"
+ },
+ {
+  "word": "das Gehalt",
+  "plural": "die Gehälter",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "薪水",
+  "example": "Über das Gehalt können wir im zweiten Gespräch sprechen.",
+  "example_zh": "薪水我們可以在第二次面談時討論。"
+ },
+ {
+  "word": "die Aufenthaltserlaubnis",
+  "plural": "die Aufenthaltserlaubnisse",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "居留許可",
+  "example": "Mit einem Arbeitsvertrag kann ich eine Aufenthaltserlaubnis beantragen.",
+  "example_zh": "有了工作合約，我就可以申請居留許可。"
+ },
+ {
+  "word": "der Termin",
+  "plural": "die Termine",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "約定、預約",
+  "example": "Ich muss einen Termin bei der Ausländerbehörde vereinbaren.",
+  "example_zh": "我必須跟外國人管理局約一個時間。"
+ },
+ {
+  "word": "die Behörde",
+  "plural": "die Behörden",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "官方機關、當局",
+  "example": "In Deutschland muss man oft mit vielen Behörden Kontakt haben.",
+  "example_zh": "在德國常常必須跟許多政府機關打交道。"
+ },
+ {
+  "word": "anspruchsvoll",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "有要求的、高難度的",
+  "example": "Die neue Aufgabe ist anspruchsvoll, aber sehr interessant.",
+  "example_zh": "這個新任務很有挑戰性，但非常有趣。"
+ },
+ {
+  "word": "die Herausforderung",
+  "plural": "die Herausforderungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "挑戰",
+  "example": "Ein neues Land und eine neue Sprache sind eine große Herausforderung.",
+  "example_zh": "新的國家和新的語言是很大的挑戰。"
+ },
+ {
+  "word": "sich verbessern",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "改善、進步",
+  "example": "Ich möchte mein Deutsch jeden Tag ein bisschen verbessern.",
+  "example_zh": "我想每天讓我的德文進步一點點。"
+ },
+ {
+  "word": "die Muttersprache",
+  "plural": "die Muttersprachen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "母語",
+  "example": "Meine Muttersprache ist Chinesisch, aber ich lerne fleißig Deutsch.",
+  "example_zh": "我的母語是中文，但我努力學德文。"
+ },
+ {
+  "word": "fließend",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "流利的",
+  "example": "Mein Ziel ist es, bald fließend Deutsch zu sprechen.",
+  "example_zh": "我的目標是很快能說一口流利的德文。"
+ },
+ {
+  "word": "die Voraussetzung",
+  "plural": "die Voraussetzungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "前提、條件",
+  "example": "Gute Deutschkenntnisse sind eine Voraussetzung für viele Jobs.",
+  "example_zh": "良好的德文能力是許多工作的前提。"
+ },
+ {
+  "word": "der Vertrag",
+  "plural": "die Verträge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "合約",
+  "example": "Bevor ich unterschreibe, lese ich den Vertrag genau.",
+  "example_zh": "在簽名之前，我會仔細閱讀合約。"
+ },
+ {
+  "word": "berufstätig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "在職的、就業的",
+  "example": "Ich möchte so schnell wie möglich wieder berufstätig sein.",
+  "example_zh": "我想盡快重新就業。"
+ },
+ {
+  "word": "die Kenntnisse",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "知識、能力（常用複數）",
+  "example": "Für diese Stelle braucht man gute Deutsch- und Englischkenntnisse.",
+  "example_zh": "這個職位需要良好的德語和英語能力。"
+ },
+ {
+  "word": "erledigen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "辦理、完成（事情）",
+  "example": "Ich muss heute noch einige wichtige Dinge erledigen.",
+  "example_zh": "我今天還必須辦完一些重要的事。"
+ },
+ {
+  "word": "der Fortschritt",
+  "plural": "die Fortschritte",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "進步、進展",
+  "example": "Nach dem B2-Kurs merke ich große Fortschritte.",
+  "example_zh": "上完 B2 課程後，我察覺到很大的進步。"
+ },
+ {
+  "word": "üblich",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "常見的、慣常的",
+  "example": "In Deutschland ist es üblich, pünktlich zu sein.",
+  "example_zh": "在德國，準時是很平常的事。"
+ },
+ {
+  "word": "die Umgebung",
+  "plural": "die Umgebungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "周遭環境、附近",
+  "example": "Essen und die Umgebung im Ruhrgebiet gefallen mir gut.",
+  "example_zh": "埃森和魯爾區周邊我很喜歡。"
+ },
+ {
+  "word": "sich gewöhnen an",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "習慣於",
+  "example": "Langsam gewöhne ich mich an das Leben in Deutschland.",
+  "example_zh": "我慢慢習慣了在德國的生活。"
+ },
+ {
+  "word": "die Unterlagen",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "文件、資料（複數）",
+  "example": "Für die Bewerbung müssen alle Unterlagen vollständig sein.",
+  "example_zh": "申請時所有文件都必須齊全。"
+ },
+ {
+  "word": "vereinbaren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "約定、商定",
+  "example": "Können wir einen Termin für nächste Woche vereinbaren?",
+  "example_zh": "我們可以約下週的一個時間嗎？"
+ },
+ {
+  "word": "die Stelle",
+  "plural": "die Stellen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "職位、工作缺",
+  "example": "Ich habe eine interessante Stelle im Internet gefunden.",
+  "example_zh": "我在網路上找到一個有趣的職缺。"
+ },
+ {
+  "word": "ehrgeizig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "有雄心的、上進的",
+  "example": "Ich bin ehrgeizig und will in meinem Beruf weiterkommen.",
+  "example_zh": "我很有企圖心，想在職涯上更進一步。"
+ },
+ {
+  "word": "die Weiterbildung",
+  "plural": "die Weiterbildungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "進修、在職訓練",
+  "example": "Diese Firma bietet ihren Mitarbeitern viele Weiterbildungen an.",
+  "example_zh": "這家公司提供員工很多進修機會。"
+ },
+ {
+  "word": "das Ruhrgebiet",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "魯爾區（德國西部工業區）",
+  "example": "Das Ruhrgebiet war früher für Kohle und Stahl bekannt.",
+  "example_zh": "魯爾區以前以煤礦和鋼鐵聞名。"
+ },
+ {
+  "word": "beantragen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "申請（正式）",
+  "example": "Ich möchte eine Steuernummer beantragen.",
+  "example_zh": "我想申請一個稅號。"
+ },
+ {
+  "word": "zuständig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "負責的、主管的",
+  "example": "Welche Behörde ist für die Anmeldung zuständig?",
+  "example_zh": "哪個機關負責戶籍登記？"
+ },
+ {
+  "word": "die Anmeldung",
+  "plural": "die Anmeldungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "登記、報到",
+  "example": "Nach dem Umzug muss man eine Anmeldung beim Bürgeramt machen.",
+  "example_zh": "搬家後必須到市民局辦理戶籍登記。"
+ },
+ {
+  "word": "empfehlen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "推薦",
+  "example": "Können Sie mir einen guten Deutschkurs empfehlen?",
+  "example_zh": "您能推薦我一個好的德文課程嗎？"
+ },
+ {
+  "word": "der Eindruck",
+  "plural": "die Eindrücke",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "印象",
+  "example": "Im Vorstellungsgespräch möchte ich einen guten Eindruck machen.",
+  "example_zh": "在面試中我想留下好印象。"
+ },
+ {
+  "word": "selbstständig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "獨立的、自主的",
+  "example": "Ich kann selbstständig arbeiten und Probleme allein lösen.",
+  "example_zh": "我能獨立工作，並且自己解決問題。"
+ },
+ {
+  "word": "die Bewerbung",
+  "plural": "die Bewerbungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "求職申請",
+  "example": "Ich habe diese Woche drei Bewerbungen abgeschickt.",
+  "example_zh": "我這週寄出了三份求職申請。"
+ },
+ {
+  "word": "verfügbar",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "可用的、有空的",
+  "example": "Ab dem ersten September bin ich verfügbar.",
+  "example_zh": "從九月一日起我就有空（可上工）。"
+ },
+ {
+  "word": "der Arbeitgeber",
+  "plural": "die Arbeitgeber",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "雇主",
+  "example": "Mein Arbeitgeber bietet flexible Arbeitszeiten an.",
+  "example_zh": "我的雇主提供彈性工時。"
+ },
+ {
+  "word": "der Arbeitnehmer",
+  "plural": "die Arbeitnehmer",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "員工、受僱者",
+  "example": "Jeder Arbeitnehmer hat Anspruch auf bezahlten Urlaub.",
+  "example_zh": "每位員工都有帶薪休假的權利。"
+ },
+ {
+  "word": "die Abteilung",
+  "plural": "die Abteilungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "部門",
+  "example": "Sie arbeitet in der Abteilung für Marketing.",
+  "example_zh": "她在行銷部門工作。"
+ },
+ {
+  "word": "der Kollege",
+  "plural": "die Kollegen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "同事（男）",
+  "example": "Mein Kollege hilft mir immer bei schwierigen Aufgaben.",
+  "example_zh": "我的同事總是幫我處理困難的任務。"
+ },
+ {
+  "word": "die Besprechung",
+  "plural": "die Besprechungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "會議、討論",
+  "example": "Die Besprechung beginnt um zehn Uhr im großen Konferenzraum.",
+  "example_zh": "會議十點在大會議室開始。"
+ },
+ {
+  "word": "die Aufgabe",
+  "plural": "die Aufgaben",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "任務、工作",
+  "example": "Diese Aufgabe muss bis Freitag fertig sein.",
+  "example_zh": "這個任務必須在週五前完成。"
+ },
+ {
+  "word": "die Frist",
+  "plural": "die Fristen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "期限、截止日",
+  "example": "Wir müssen die Frist unbedingt einhalten.",
+  "example_zh": "我們務必要遵守這個期限。"
+ },
+ {
+  "word": "die Gehaltserhöhung",
+  "plural": "die Gehaltserhöhungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "加薪",
+  "example": "Nach einem Jahr habe ich um eine Gehaltserhöhung gebeten.",
+  "example_zh": "一年後我要求加薪。"
+ },
+ {
+  "word": "die Überstunde",
+  "plural": "die Überstunden",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "加班（時數）",
+  "example": "Diese Woche habe ich viele Überstunden gemacht.",
+  "example_zh": "這週我加了很多班。"
+ },
+ {
+  "word": "der Feierabend",
+  "plural": "die Feierabende",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "下班（時間）",
+  "example": "Nach dem Feierabend treffe ich mich mit Freunden.",
+  "example_zh": "下班後我跟朋友碰面。"
+ },
+ {
+  "word": "kündigen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "解僱、辭職",
+  "example": "Er hat gekündigt, weil er eine bessere Stelle gefunden hat.",
+  "example_zh": "他辭職了，因為找到更好的職位。"
+ },
+ {
+  "word": "einstellen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "聘用、僱用",
+  "example": "Die Firma will nächsten Monat drei neue Leute einstellen.",
+  "example_zh": "公司下個月想聘三名新人。"
+ },
+ {
+  "word": "sich bewerben um",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "應徵、申請（某職位）",
+  "example": "Ich bewerbe mich um eine Stelle als Projektleiter.",
+  "example_zh": "我應徵專案經理的職位。"
+ },
+ {
+  "word": "die Probezeit",
+  "plural": "die Probezeiten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "試用期",
+  "example": "Die Probezeit dauert in der Regel sechs Monate.",
+  "example_zh": "試用期通常是六個月。"
+ },
+ {
+  "word": "der Arbeitsvertrag",
+  "plural": "die Arbeitsverträge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "勞動合約",
+  "example": "Bevor ich anfange, unterschreibe ich den Arbeitsvertrag.",
+  "example_zh": "開始工作前我簽了勞動合約。"
+ },
+ {
+  "word": "die Verantwortung",
+  "plural": "die Verantwortungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "責任",
+  "example": "Als Teamleiter trage ich viel Verantwortung.",
+  "example_zh": "身為團隊領導，我承擔很多責任。"
+ },
+ {
+  "word": "leiten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "領導、管理",
+  "example": "Sie leitet ein Team von zehn Entwicklern.",
+  "example_zh": "她領導一個十人的開發團隊。"
+ },
+ {
+  "word": "die Kündigungsfrist",
+  "plural": "die Kündigungsfristen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "離職通知期",
+  "example": "Meine Kündigungsfrist beträgt drei Monate.",
+  "example_zh": "我的離職通知期是三個月。"
+ },
+ {
+  "word": "der Lohn",
+  "plural": "die Löhne",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "工資",
+  "example": "Der Lohn wird am Ende des Monats überwiesen.",
+  "example_zh": "工資會在月底匯入。"
+ },
+ {
+  "word": "die Fortbildung",
+  "plural": "die Fortbildungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "進修、培訓",
+  "example": "Der Chef unterstützt jede Fortbildung seiner Mitarbeiter.",
+  "example_zh": "老闆支持員工的每項進修。"
+ },
+ {
+  "word": "der Vorgesetzte",
+  "plural": "die Vorgesetzten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "上司、主管",
+  "example": "Mein Vorgesetzter ist sehr fair und hilfsbereit.",
+  "example_zh": "我的主管非常公平又樂於助人。"
+ },
+ {
+  "word": "die Belegschaft",
+  "plural": "die Belegschaften",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "全體員工",
+  "example": "Die gesamte Belegschaft wurde über die Änderungen informiert.",
+  "example_zh": "全體員工都被告知了這些變動。"
+ },
+ {
+  "word": "die Karriere",
+  "plural": "die Karrieren",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "職涯",
+  "example": "Er möchte in seiner Karriere schnell aufsteigen.",
+  "example_zh": "他希望在職涯上快速晉升。"
+ },
+ {
+  "word": "befördern",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "晉升",
+  "example": "Nach zwei Jahren wurde sie zur Managerin befördert.",
+  "example_zh": "兩年後她被晉升為經理。"
+ },
+ {
+  "word": "das Zeugnis",
+  "plural": "die Zeugnisse",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "證明、成績單、工作證明",
+  "example": "Nach der Kündigung bekam er ein gutes Arbeitszeugnis.",
+  "example_zh": "離職後他拿到一份好的工作證明。"
+ },
+ {
+  "word": "die Anforderung",
+  "plural": "die Anforderungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "要求、條件",
+  "example": "Die Anforderungen für diese Stelle sind sehr hoch.",
+  "example_zh": "這個職位的要求非常高。"
+ },
+ {
+  "word": "das Projekt",
+  "plural": "die Projekte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "專案",
+  "example": "Unser Projekt läuft schon seit sechs Monaten.",
+  "example_zh": "我們的專案已經進行六個月了。"
+ },
+ {
+  "word": "die Aufstiegsmöglichkeit",
+  "plural": "die Aufstiegsmöglichkeiten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "晉升機會",
+  "example": "Die Firma bietet gute Aufstiegsmöglichkeiten.",
+  "example_zh": "這家公司提供良好的晉升機會。"
+ },
+ {
+  "word": "das Netzwerk",
+  "plural": "die Netzwerke",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "人脈、網絡",
+  "example": "Ein gutes berufliches Netzwerk hilft bei der Jobsuche.",
+  "example_zh": "良好的職業人脈有助於找工作。"
+ },
+ {
+  "word": "kompetent",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "有能力的、專業的",
+  "example": "Sie wirkt im Vorstellungsgespräch sehr kompetent.",
+  "example_zh": "她在面試中顯得非常專業。"
+ },
+ {
+  "word": "die Teilzeit",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "兼職",
+  "example": "Nach der Geburt ihres Kindes arbeitet sie in Teilzeit.",
+  "example_zh": "孩子出生後她從事兼職工作。"
+ },
+ {
+  "word": "die Vollzeit",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "全職",
+  "example": "Ich suche eine Stelle in Vollzeit.",
+  "example_zh": "我在找一份全職的工作。"
+ },
+ {
+  "word": "das Homeoffice",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "在家辦公",
+  "example": "Zweimal pro Woche darf ich im Homeoffice arbeiten.",
+  "example_zh": "我每週有兩天可以在家辦公。"
+ },
+ {
+  "word": "der Arbeitsplatz",
+  "plural": "die Arbeitsplätze",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "工作崗位、職位",
+  "example": "Durch die Krise gingen viele Arbeitsplätze verloren.",
+  "example_zh": "因為這場危機，許多工作崗位消失了。"
+ },
+ {
+  "word": "die Gewerkschaft",
+  "plural": "die Gewerkschaften",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "工會",
+  "example": "Die Gewerkschaft verhandelt über höhere Löhne.",
+  "example_zh": "工會正在為更高的工資談判。"
+ },
+ {
+  "word": "der Betrieb",
+  "plural": "die Betriebe",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "企業、工廠",
+  "example": "Der Betrieb beschäftigt über fünfhundert Menschen.",
+  "example_zh": "這家企業僱用超過五百人。"
+ },
+ {
+  "word": "selbstständig machen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "自行創業",
+  "example": "Nächstes Jahr möchte ich mich selbstständig machen.",
+  "example_zh": "明年我想自行創業。"
+ },
+ {
+  "word": "die Rente",
+  "plural": "die Renten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "退休金",
+  "example": "In Deutschland zahlt man in die gesetzliche Rente ein.",
+  "example_zh": "在德國人們會繳交法定退休金。"
+ },
+ {
+  "word": "der Ruhestand",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "退休",
+  "example": "Mit 67 Jahren geht er in den Ruhestand.",
+  "example_zh": "六十七歲時他將退休。"
+ },
+ {
+  "word": "die Motivation",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "動機、動力",
+  "example": "Ein gutes Team stärkt meine Motivation.",
+  "example_zh": "好的團隊增強我的工作動力。"
+ },
+ {
+  "word": "belastbar",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "抗壓的",
+  "example": "Für diesen Job muss man belastbar sein.",
+  "example_zh": "這份工作必須能承受壓力。"
+ },
+ {
+  "word": "das Praktikum",
+  "plural": "die Praktika",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "實習",
+  "example": "Während des Studiums machte er ein Praktikum bei einer Bank.",
+  "example_zh": "求學期間他在一家銀行實習。"
+ },
+ {
+  "word": "der Lebensunterhalt",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "生計",
+  "example": "Mit diesem Gehalt kann ich meinen Lebensunterhalt bestreiten.",
+  "example_zh": "靠這份薪水我能維持生計。"
+ },
+ {
+  "word": "die Schicht",
+  "plural": "die Schichten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "輪班",
+  "example": "Er arbeitet diese Woche in der Nachtschicht.",
+  "example_zh": "他這週上夜班。"
+ },
+ {
+  "word": "produktiv",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "有生產力的",
+  "example": "Am Morgen bin ich am produktivsten.",
+  "example_zh": "我早上最有生產力。"
+ },
+ {
+  "word": "die Zusammenarbeit",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "合作",
+  "example": "Die Zusammenarbeit zwischen den Teams läuft sehr gut.",
+  "example_zh": "團隊之間的合作進行得很順利。"
+ },
+ {
+  "word": "die Rückmeldung",
+  "plural": "die Rückmeldungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "回饋、答覆",
+  "example": "Ich warte noch auf eine Rückmeldung von der Firma.",
+  "example_zh": "我還在等公司的答覆。"
+ },
+ {
+  "word": "engagiert",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "投入的、積極的",
+  "example": "Sie ist eine sehr engagierte Mitarbeiterin.",
+  "example_zh": "她是一位非常投入的員工。"
+ },
+ {
+  "word": "die Kompetenz",
+  "plural": "die Kompetenzen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "能力、職權",
+  "example": "Soziale Kompetenz ist im Beruf sehr wichtig.",
+  "example_zh": "社交能力在職場上非常重要。"
+ },
+ {
+  "word": "das Fachwissen",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "專業知識",
+  "example": "Sein Fachwissen im Bereich Datenbanken ist beeindruckend.",
+  "example_zh": "他在資料庫領域的專業知識令人印象深刻。"
+ },
+ {
+  "word": "die Wohnung",
+  "plural": "die Wohnungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "公寓、住所",
+  "example": "Wir suchen eine größere Wohnung in Essen.",
+  "example_zh": "我們在埃森找一間更大的公寓。"
+ },
+ {
+  "word": "die Miete",
+  "plural": "die Mieten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "房租",
+  "example": "Die Miete steigt jedes Jahr ein bisschen.",
+  "example_zh": "房租每年都漲一點。"
+ },
+ {
+  "word": "der Vermieter",
+  "plural": "die Vermieter",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "房東",
+  "example": "Der Vermieter hat die Heizung endlich repariert.",
+  "example_zh": "房東終於把暖氣修好了。"
+ },
+ {
+  "word": "der Mieter",
+  "plural": "die Mieter",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "房客",
+  "example": "Als Mieter hat man in Deutschland viele Rechte.",
+  "example_zh": "在德國房客有很多權利。"
+ },
+ {
+  "word": "die Kaution",
+  "plural": "die Kautionen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "押金",
+  "example": "Die Kaution beträgt drei Monatsmieten.",
+  "example_zh": "押金是三個月的房租。"
+ },
+ {
+  "word": "die Nebenkosten",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "雜費、管理費",
+  "example": "Die Nebenkosten für Wasser und Heizung sind hoch.",
+  "example_zh": "水電暖氣的雜費很高。"
+ },
+ {
+  "word": "der Umzug",
+  "plural": "die Umzüge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "搬家",
+  "example": "Der Umzug in die neue Wohnung war anstrengend.",
+  "example_zh": "搬到新公寓的過程很累人。"
+ },
+ {
+  "word": "umziehen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "搬家",
+  "example": "Nächsten Monat ziehen wir nach Düsseldorf um.",
+  "example_zh": "下個月我們要搬到杜塞道夫。"
+ },
+ {
+  "word": "die Möbel",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "傢俱（複數）",
+  "example": "Die neuen Möbel kommen erst nächste Woche.",
+  "example_zh": "新傢俱下週才會到。"
+ },
+ {
+  "word": "der Nachbar",
+  "plural": "die Nachbarn",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "鄰居",
+  "example": "Unsere Nachbarn sind sehr freundlich und ruhig.",
+  "example_zh": "我們的鄰居非常友善又安靜。"
+ },
+ {
+  "word": "der Hausmeister",
+  "plural": "die Hausmeister",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "管理員",
+  "example": "Bei Problemen im Haus ruft man den Hausmeister an.",
+  "example_zh": "房子有問題時就打電話給管理員。"
+ },
+ {
+  "word": "die Reparatur",
+  "plural": "die Reparaturen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "維修",
+  "example": "Die Reparatur der Waschmaschine war teuer.",
+  "example_zh": "修洗衣機很貴。"
+ },
+ {
+  "word": "reparieren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "修理",
+  "example": "Kannst du den tropfenden Wasserhahn reparieren?",
+  "example_zh": "你能修一下漏水的水龍頭嗎？"
+ },
+ {
+  "word": "der Mietvertrag",
+  "plural": "die Mietverträge",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "租約",
+  "example": "Lies den Mietvertrag genau, bevor du unterschreibst.",
+  "example_zh": "簽名前仔細閱讀租約。"
+ },
+ {
+  "word": "die Wohngemeinschaft",
+  "plural": "die Wohngemeinschaften",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "合租公寓（WG）",
+  "example": "Als Student wohnte er in einer Wohngemeinschaft.",
+  "example_zh": "當學生時他住在合租公寓裡。"
+ },
+ {
+  "word": "das Erdgeschoss",
+  "plural": "die Erdgeschosse",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "一樓",
+  "example": "Unsere Wohnung liegt im Erdgeschoss.",
+  "example_zh": "我們的公寓在一樓。"
+ },
+ {
+  "word": "der Stock",
+  "plural": "die Stockwerke",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "樓層",
+  "example": "Sie wohnt im dritten Stock ohne Aufzug.",
+  "example_zh": "她住在沒有電梯的四樓。"
+ },
+ {
+  "word": "der Aufzug",
+  "plural": "die Aufzüge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "電梯",
+  "example": "Der Aufzug ist leider wieder kaputt.",
+  "example_zh": "電梯很可惜又壞了。"
+ },
+ {
+  "word": "der Balkon",
+  "plural": "die Balkone",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "陽台",
+  "example": "Im Sommer frühstücken wir gern auf dem Balkon.",
+  "example_zh": "夏天我們喜歡在陽台吃早餐。"
+ },
+ {
+  "word": "der Keller",
+  "plural": "die Keller",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "地下室",
+  "example": "Die Fahrräder stehen im Keller.",
+  "example_zh": "腳踏車放在地下室。"
+ },
+ {
+  "word": "heizen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "供暖、開暖氣",
+  "example": "Im Winter müssen wir viel heizen.",
+  "example_zh": "冬天我們必須開很多暖氣。"
+ },
+ {
+  "word": "die Heizung",
+  "plural": "die Heizungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "暖氣",
+  "example": "Die Heizung funktioniert seit gestern nicht mehr.",
+  "example_zh": "暖氣從昨天起就不能用了。"
+ },
+ {
+  "word": "der Haushalt",
+  "plural": "die Haushalte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "家務、家庭",
+  "example": "Wir teilen uns den Haushalt gerecht auf.",
+  "example_zh": "我們公平地分擔家務。"
+ },
+ {
+  "word": "aufräumen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "整理、收拾",
+  "example": "Am Wochenende räume ich die ganze Wohnung auf.",
+  "example_zh": "週末我會整理整間公寓。"
+ },
+ {
+  "word": "putzen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "打掃、清潔",
+  "example": "Jeden Samstag putze ich das Badezimmer.",
+  "example_zh": "每週六我打掃浴室。"
+ },
+ {
+  "word": "der Müll",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "垃圾",
+  "example": "In Deutschland muss man den Müll genau trennen.",
+  "example_zh": "在德國必須仔細分類垃圾。"
+ },
+ {
+  "word": "die Mülltrennung",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "垃圾分類",
+  "example": "Die Mülltrennung ist hier sehr wichtig.",
+  "example_zh": "垃圾分類在這裡非常重要。"
+ },
+ {
+  "word": "der Strom",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "電力",
+  "example": "Der Strom ist in diesem Jahr teurer geworden.",
+  "example_zh": "今年電費變貴了。"
+ },
+ {
+  "word": "der Anschluss",
+  "plural": "die Anschlüsse",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "接口、連接（網路/電話）",
+  "example": "Der Internetanschluss wird nächste Woche installiert.",
+  "example_zh": "網路連線下週會安裝。"
+ },
+ {
+  "word": "möbliert",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "附傢俱的",
+  "example": "Wir haben eine möblierte Wohnung gemietet.",
+  "example_zh": "我們租了一間附傢俱的公寓。"
+ },
+ {
+  "word": "gemütlich",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "舒適的、溫馨的",
+  "example": "Ihr Wohnzimmer ist sehr gemütlich eingerichtet.",
+  "example_zh": "她的客廳布置得很溫馨。"
+ },
+ {
+  "word": "die Wohnfläche",
+  "plural": "die Wohnflächen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "居住面積",
+  "example": "Die Wohnung hat eine Wohnfläche von 70 Quadratmetern.",
+  "example_zh": "這間公寓的居住面積有七十平方公尺。"
+ },
+ {
+  "word": "der Quadratmeter",
+  "plural": "die Quadratmeter",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "平方公尺",
+  "example": "Die Wohnung ist achtzig Quadratmeter groß.",
+  "example_zh": "這間公寓有八十平方公尺大。"
+ },
+ {
+  "word": "kündigen (Wohnung)",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "退租",
+  "example": "Wir müssen die Wohnung drei Monate vorher kündigen.",
+  "example_zh": "我們必須提前三個月退租。"
+ },
+ {
+  "word": "die Besichtigung",
+  "plural": "die Besichtigungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "看房、參觀",
+  "example": "Morgen haben wir eine Besichtigung für eine neue Wohnung.",
+  "example_zh": "明天我們要去看一間新公寓。"
+ },
+ {
+  "word": "die Immobilie",
+  "plural": "die Immobilien",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "不動產",
+  "example": "Immobilien in Großstädten sind sehr teuer.",
+  "example_zh": "大城市的不動產非常昂貴。"
+ },
+ {
+  "word": "der Makler",
+  "plural": "die Makler",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "仲介",
+  "example": "Der Makler verlangt eine hohe Provision.",
+  "example_zh": "仲介收取高額佣金。"
+ },
+ {
+  "word": "renovieren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "翻修、裝修",
+  "example": "Bevor wir einziehen, wollen wir die Küche renovieren.",
+  "example_zh": "搬進去之前我們想翻修廚房。"
+ },
+ {
+  "word": "einziehen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "搬入",
+  "example": "Wir ziehen am ersten September in die neue Wohnung ein.",
+  "example_zh": "我們九月一日搬進新公寓。"
+ },
+ {
+  "word": "ausziehen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "搬出",
+  "example": "Sein Sohn ist letztes Jahr von zu Hause ausgezogen.",
+  "example_zh": "他兒子去年搬離了家。"
+ },
+ {
+  "word": "die Wohngegend",
+  "plural": "die Wohngegenden",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "住宅區",
+  "example": "Wir wohnen in einer ruhigen Wohngegend.",
+  "example_zh": "我們住在一個安靜的住宅區。"
+ },
+ {
+  "word": "der Grundriss",
+  "plural": "die Grundrisse",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "平面圖、格局",
+  "example": "Der Grundriss der Wohnung gefällt mir sehr.",
+  "example_zh": "這間公寓的格局我很喜歡。"
+ },
+ {
+  "word": "das Schlafzimmer",
+  "plural": "die Schlafzimmer",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "臥室",
+  "example": "Das Schlafzimmer ist ruhig und ziemlich groß.",
+  "example_zh": "臥室安靜而且相當大。"
+ },
+ {
+  "word": "die Wäsche",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "衣物、洗的衣服",
+  "example": "Ich muss noch die Wäsche waschen und aufhängen.",
+  "example_zh": "我還得洗衣服並晾起來。"
+ },
+ {
+  "word": "der Staubsauger",
+  "plural": "die Staubsauger",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "吸塵器",
+  "example": "Der neue Staubsauger ist sehr leise.",
+  "example_zh": "新的吸塵器非常安靜。"
+ },
+ {
+  "word": "das Werkzeug",
+  "plural": "die Werkzeuge",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "工具",
+  "example": "Für die Reparatur brauche ich das richtige Werkzeug.",
+  "example_zh": "這個維修我需要合適的工具。"
+ },
+ {
+  "word": "undicht",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "漏（水/氣）的",
+  "example": "Das Dach ist undicht und muss repariert werden.",
+  "example_zh": "屋頂漏水，必須修理。"
+ },
+ {
+  "word": "der Schimmel",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "黴菌",
+  "example": "An der Wand im Bad bildet sich Schimmel.",
+  "example_zh": "浴室牆上長黴菌了。"
+ },
+ {
+  "word": "lüften",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "通風、開窗換氣",
+  "example": "Man sollte jeden Tag mehrmals lüften.",
+  "example_zh": "每天應該多次開窗通風。"
+ },
+ {
+  "word": "die Wohnungssuche",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "找房",
+  "example": "Die Wohnungssuche in Großstädten ist oft schwierig.",
+  "example_zh": "在大城市找房通常很困難。"
+ },
+ {
+  "word": "der Hausrat",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "家當、居家財物",
+  "example": "Eine Hausratversicherung schützt deinen Hausrat.",
+  "example_zh": "居家財物保險保障你的家當。"
+ },
+ {
+  "word": "das Amt",
+  "plural": "die Ämter",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "機關、局處",
+  "example": "Das Amt hat nur vormittags geöffnet.",
+  "example_zh": "這個機關只在上午開放。"
+ },
+ {
+  "word": "das Bürgeramt",
+  "plural": "die Bürgerämter",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "市民局",
+  "example": "Für die Anmeldung gehe ich zum Bürgeramt.",
+  "example_zh": "辦戶籍登記我要去市民局。"
+ },
+ {
+  "word": "die Ausländerbehörde",
+  "plural": "die Ausländerbehörden",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "外國人管理局",
+  "example": "Die Ausländerbehörde bearbeitet meinen Antrag noch.",
+  "example_zh": "外國人管理局還在處理我的申請。"
+ },
+ {
+  "word": "das Formular",
+  "plural": "die Formulare",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "表格",
+  "example": "Bitte füllen Sie dieses Formular vollständig aus.",
+  "example_zh": "請完整填寫這張表格。"
+ },
+ {
+  "word": "ausfüllen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "填寫",
+  "example": "Ich habe das Antragsformular schon ausgefüllt.",
+  "example_zh": "我已經填好申請表了。"
+ },
+ {
+  "word": "der Antrag",
+  "plural": "die Anträge",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "申請書",
+  "example": "Ich stelle einen Antrag auf eine Aufenthaltserlaubnis.",
+  "example_zh": "我提出居留許可的申請。"
+ },
+ {
+  "word": "anmelden",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "登記、報到",
+  "example": "Ich muss mich beim Einwohnermeldeamt anmelden.",
+  "example_zh": "我必須去戶政事務所報到。"
+ },
+ {
+  "word": "die Bescheinigung",
+  "plural": "die Bescheinigungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "證明文件",
+  "example": "Die Bescheinigung brauche ich für die Krankenkasse.",
+  "example_zh": "這份證明我要交給健保。"
+ },
+ {
+  "word": "der Bescheid",
+  "plural": "die Bescheide",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "（官方）通知、裁定",
+  "example": "Der Bescheid vom Amt kommt in zwei Wochen per Post.",
+  "example_zh": "機關的通知兩週後會寄來。"
+ },
+ {
+  "word": "die Versicherung",
+  "plural": "die Versicherungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "保險",
+  "example": "In Deutschland ist eine Krankenversicherung Pflicht.",
+  "example_zh": "在德國健康保險是義務。"
+ },
+ {
+  "word": "die Krankenkasse",
+  "plural": "die Krankenkassen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "健保機構",
+  "example": "Ich habe meine Krankenkasse letztes Jahr gewechselt.",
+  "example_zh": "我去年換了健保機構。"
+ },
+ {
+  "word": "die Steuer",
+  "plural": "die Steuern",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "稅",
+  "example": "Als Angestellter zahlt man automatisch Steuern.",
+  "example_zh": "作為受僱者會自動繳稅。"
+ },
+ {
+  "word": "die Steuererklärung",
+  "plural": "die Steuererklärungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "報稅、稅務申報",
+  "example": "Die Steuererklärung muss bis Juli abgegeben werden.",
+  "example_zh": "報稅必須在七月前提交。"
+ },
+ {
+  "word": "die Steuernummer",
+  "plural": "die Steuernummern",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "稅號",
+  "example": "Ohne Steuernummer kann der Arbeitgeber kein Gehalt zahlen.",
+  "example_zh": "沒有稅號雇主無法發薪水。"
+ },
+ {
+  "word": "gültig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "有效的",
+  "example": "Mein Reisepass ist noch fünf Jahre gültig.",
+  "example_zh": "我的護照還有五年有效。"
+ },
+ {
+  "word": "beglaubigen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "公證、認證",
+  "example": "Die Kopie muss vom Amt beglaubigt werden.",
+  "example_zh": "這份影本必須經機關認證。"
+ },
+ {
+  "word": "die Genehmigung",
+  "plural": "die Genehmigungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "許可、批准",
+  "example": "Ohne Genehmigung darf man hier nicht bauen.",
+  "example_zh": "沒有許可不能在這裡蓋房子。"
+ },
+ {
+  "word": "die Gebühr",
+  "plural": "die Gebühren",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "規費、手續費",
+  "example": "Für den Reisepass fällt eine Gebühr an.",
+  "example_zh": "辦護照要收一筆規費。"
+ },
+ {
+  "word": "der Personalausweis",
+  "plural": "die Personalausweise",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "身分證",
+  "example": "Bitte zeigen Sie Ihren Personalausweis vor.",
+  "example_zh": "請出示您的身分證。"
+ },
+ {
+  "word": "der Reisepass",
+  "plural": "die Reisepässe",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "護照",
+  "example": "Mein Reisepass muss bald verlängert werden.",
+  "example_zh": "我的護照快要延期了。"
+ },
+ {
+  "word": "verlängern",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "延長、續期",
+  "example": "Ich möchte meine Aufenthaltserlaubnis verlängern.",
+  "example_zh": "我想延長我的居留許可。"
+ },
+ {
+  "word": "der Nachweis",
+  "plural": "die Nachweise",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "證明、憑證",
+  "example": "Als Nachweis reicht eine Gehaltsabrechnung.",
+  "example_zh": "薪資單就足以作為證明。"
+ },
+ {
+  "word": "die Anerkennung",
+  "plural": "die Anerkennungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "（學歷/資格）認證",
+  "example": "Die Anerkennung meines Abschlusses hat drei Monate gedauert.",
+  "example_zh": "我的學歷認證花了三個月。"
+ },
+ {
+  "word": "der Zuschuss",
+  "plural": "die Zuschüsse",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "補助、津貼",
+  "example": "Der Staat zahlt einen Zuschuss zur Miete.",
+  "example_zh": "國家提供房租補助。"
+ },
+ {
+  "word": "das Arbeitsamt",
+  "plural": "die Arbeitsämter",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "就業服務處",
+  "example": "Beim Arbeitsamt kann man sich arbeitslos melden.",
+  "example_zh": "在就業服務處可以登記失業。"
+ },
+ {
+  "word": "die Sozialversicherung",
+  "plural": "die Sozialversicherungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "社會保險",
+  "example": "Vom Lohn wird die Sozialversicherung abgezogen.",
+  "example_zh": "薪水中會扣除社會保險。"
+ },
+ {
+  "word": "unterschreiben",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "簽名",
+  "example": "Bitte unterschreiben Sie hier unten rechts.",
+  "example_zh": "請在右下角簽名。"
+ },
+ {
+  "word": "die Vorschrift",
+  "plural": "die Vorschriften",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "規定、規章",
+  "example": "Man muss sich an die gesetzlichen Vorschriften halten.",
+  "example_zh": "必須遵守法律規定。"
+ },
+ {
+  "word": "das Gesetz",
+  "plural": "die Gesetze",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "法律",
+  "example": "Das neue Gesetz tritt im Januar in Kraft.",
+  "example_zh": "新法律將於一月生效。"
+ },
+ {
+  "word": "die Staatsangehörigkeit",
+  "plural": "die Staatsangehörigkeiten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "國籍",
+  "example": "Er hat die deutsche Staatsangehörigkeit beantragt.",
+  "example_zh": "他申請了德國國籍。"
+ },
+ {
+  "word": "die Einbürgerung",
+  "plural": "die Einbürgerungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "入籍、歸化",
+  "example": "Für die Einbürgerung braucht man gute Deutschkenntnisse.",
+  "example_zh": "入籍需要良好的德語能力。"
+ },
+ {
+  "word": "der Wohnsitz",
+  "plural": "die Wohnsitze",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "住所、戶籍地",
+  "example": "Mein Wohnsitz ist seit Januar in Essen.",
+  "example_zh": "我從一月起戶籍在埃森。"
+ },
+ {
+  "word": "die Meldebescheinigung",
+  "plural": "die Meldebescheinigungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "戶籍證明",
+  "example": "Für das Konto brauche ich eine Meldebescheinigung.",
+  "example_zh": "開戶我需要一份戶籍證明。"
+ },
+ {
+  "word": "der Sachbearbeiter",
+  "plural": "die Sachbearbeiter",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "承辦人員",
+  "example": "Der Sachbearbeiter war sehr freundlich und geduldig.",
+  "example_zh": "承辦人員非常友善又有耐心。"
+ },
+ {
+  "word": "bearbeiten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "處理、辦理",
+  "example": "Ihr Antrag wird zurzeit bearbeitet.",
+  "example_zh": "您的申請正在處理中。"
+ },
+ {
+  "word": "einreichen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "提交、遞交",
+  "example": "Sie müssen die Unterlagen bis Freitag einreichen.",
+  "example_zh": "您必須在週五前提交文件。"
+ },
+ {
+  "word": "der Widerspruch",
+  "plural": "die Widersprüche",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "異議、申訴",
+  "example": "Gegen den Bescheid kann man Widerspruch einlegen.",
+  "example_zh": "可以對這份裁定提出異議。"
+ },
+ {
+  "word": "verpflichtet",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "有義務的",
+  "example": "Jeder ist verpflichtet, sich zu versichern.",
+  "example_zh": "每個人都有投保的義務。"
+ },
+ {
+  "word": "die Erlaubnis",
+  "plural": "die Erlaubnisse",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "許可",
+  "example": "Ohne Erlaubnis darf man nicht arbeiten.",
+  "example_zh": "沒有許可不得工作。"
+ },
+ {
+  "word": "die Gesundheit",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "健康",
+  "example": "Die Gesundheit ist das Wichtigste im Leben.",
+  "example_zh": "健康是人生中最重要的事。"
+ },
+ {
+  "word": "der Arzt",
+  "plural": "die Ärzte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "醫生",
+  "example": "Ich gehe morgen zum Arzt, weil ich Fieber habe.",
+  "example_zh": "我明天要去看醫生，因為我發燒。"
+ },
+ {
+  "word": "die Ärztin",
+  "plural": "die Ärztinnen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "女醫生",
+  "example": "Meine Ärztin hat mir viel Ruhe empfohlen.",
+  "example_zh": "我的醫生建議我多休息。"
+ },
+ {
+  "word": "die Krankheit",
+  "plural": "die Krankheiten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "疾病",
+  "example": "Diese Krankheit ist zum Glück nicht ansteckend.",
+  "example_zh": "幸好這種病不會傳染。"
+ },
+ {
+  "word": "die Behandlung",
+  "plural": "die Behandlungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "治療",
+  "example": "Die Behandlung dauert etwa zwei Wochen.",
+  "example_zh": "治療大約需要兩週。"
+ },
+ {
+  "word": "behandeln",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "治療",
+  "example": "Der Arzt behandelt mich seit Jahren.",
+  "example_zh": "這位醫生治療我好幾年了。"
+ },
+ {
+  "word": "die Untersuchung",
+  "plural": "die Untersuchungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "檢查",
+  "example": "Nach der Untersuchung war alles in Ordnung.",
+  "example_zh": "檢查後一切正常。"
+ },
+ {
+  "word": "untersuchen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "檢查",
+  "example": "Der Arzt untersucht zuerst meine Lunge.",
+  "example_zh": "醫生先檢查我的肺。"
+ },
+ {
+  "word": "das Rezept",
+  "plural": "die Rezepte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "處方箋",
+  "example": "Für dieses Medikament brauchst du ein Rezept.",
+  "example_zh": "這個藥你需要處方箋。"
+ },
+ {
+  "word": "das Medikament",
+  "plural": "die Medikamente",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "藥物",
+  "example": "Nimm das Medikament dreimal täglich ein.",
+  "example_zh": "這個藥一天服用三次。"
+ },
+ {
+  "word": "die Apotheke",
+  "plural": "die Apotheken",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "藥局",
+  "example": "Die Apotheke am Bahnhof hat auch nachts geöffnet.",
+  "example_zh": "車站旁的藥局晚上也營業。"
+ },
+ {
+  "word": "die Tablette",
+  "plural": "die Tabletten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "藥片",
+  "example": "Gegen die Kopfschmerzen nahm sie eine Tablette.",
+  "example_zh": "為了頭痛她吃了一顆藥片。"
+ },
+ {
+  "word": "die Schmerzen",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "疼痛（複數）",
+  "example": "Ich habe seit gestern starke Schmerzen im Rücken.",
+  "example_zh": "我從昨天起背部劇痛。"
+ },
+ {
+  "word": "das Fieber",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "發燒",
+  "example": "Das Kind hat hohes Fieber und muss im Bett bleiben.",
+  "example_zh": "孩子發高燒，必須臥床。"
+ },
+ {
+  "word": "der Husten",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "咳嗽",
+  "example": "Der Husten hält schon eine Woche an.",
+  "example_zh": "咳嗽已經持續一週了。"
+ },
+ {
+  "word": "die Erkältung",
+  "plural": "die Erkältungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "感冒",
+  "example": "Bei einer Erkältung soll man viel trinken.",
+  "example_zh": "感冒時應該多喝水。"
+ },
+ {
+  "word": "sich erkälten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "著涼、感冒",
+  "example": "Zieh dich warm an, sonst erkältest du dich.",
+  "example_zh": "穿暖一點，不然你會感冒。"
+ },
+ {
+  "word": "die Grippe",
+  "plural": "die Grippen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "流感",
+  "example": "Er liegt mit einer schweren Grippe im Bett.",
+  "example_zh": "他得了重流感臥床。"
+ },
+ {
+  "word": "gesund",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "健康的",
+  "example": "Obst und Gemüse sind sehr gesund.",
+  "example_zh": "水果和蔬菜非常健康。"
+ },
+ {
+  "word": "krank",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "生病的",
+  "example": "Ich bleibe heute zu Hause, weil ich krank bin.",
+  "example_zh": "我今天待在家，因為我生病了。"
+ },
+ {
+  "word": "die Verletzung",
+  "plural": "die Verletzungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "受傷",
+  "example": "Die Verletzung am Knie heilt langsam.",
+  "example_zh": "膝蓋的傷慢慢在癒合。"
+ },
+ {
+  "word": "sich verletzen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "受傷",
+  "example": "Beim Sport hat er sich am Fuß verletzt.",
+  "example_zh": "運動時他的腳受傷了。"
+ },
+ {
+  "word": "der Notfall",
+  "plural": "die Notfälle",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "緊急狀況",
+  "example": "Im Notfall rufen Sie bitte die 112 an.",
+  "example_zh": "緊急情況請撥打112。"
+ },
+ {
+  "word": "der Krankenwagen",
+  "plural": "die Krankenwagen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "救護車",
+  "example": "Der Krankenwagen war in fünf Minuten da.",
+  "example_zh": "救護車五分鐘內就到了。"
+ },
+ {
+  "word": "das Krankenhaus",
+  "plural": "die Krankenhäuser",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "醫院",
+  "example": "Nach dem Unfall kam sie ins Krankenhaus.",
+  "example_zh": "事故後她被送進醫院。"
+ },
+ {
+  "word": "die Operation",
+  "plural": "die Operationen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "手術",
+  "example": "Die Operation verlief ohne Komplikationen.",
+  "example_zh": "手術順利進行沒有併發症。"
+ },
+ {
+  "word": "der Körper",
+  "plural": "die Körper",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "身體",
+  "example": "Sport hält den Körper fit und gesund.",
+  "example_zh": "運動讓身體保持健康。"
+ },
+ {
+  "word": "das Herz",
+  "plural": "die Herzen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "心臟",
+  "example": "Nach dem Lauf schlägt mein Herz schnell.",
+  "example_zh": "跑步後我的心跳很快。"
+ },
+ {
+  "word": "der Magen",
+  "plural": "die Mägen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "胃",
+  "example": "Nach dem Essen tut mir der Magen weh.",
+  "example_zh": "吃飯後我胃痛。"
+ },
+ {
+  "word": "der Rücken",
+  "plural": "die Rücken",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "背部",
+  "example": "Vom langen Sitzen tut mir der Rücken weh.",
+  "example_zh": "久坐讓我背痛。"
+ },
+ {
+  "word": "das Symptom",
+  "plural": "die Symptome",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "症狀",
+  "example": "Die Symptome verschwanden nach zwei Tagen.",
+  "example_zh": "症狀兩天後消失了。"
+ },
+ {
+  "word": "die Diagnose",
+  "plural": "die Diagnosen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "診斷",
+  "example": "Der Arzt stellte schnell die richtige Diagnose.",
+  "example_zh": "醫生很快做出正確的診斷。"
+ },
+ {
+  "word": "die Impfung",
+  "plural": "die Impfungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "疫苗接種",
+  "example": "Die Impfung schützt vor schweren Verläufen.",
+  "example_zh": "疫苗接種可預防重症。"
+ },
+ {
+  "word": "impfen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "接種疫苗",
+  "example": "Ich lasse mich jedes Jahr gegen Grippe impfen.",
+  "example_zh": "我每年接種流感疫苗。"
+ },
+ {
+  "word": "die Krankschreibung",
+  "plural": "die Krankschreibungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "病假證明",
+  "example": "Der Arzt gab mir eine Krankschreibung für drei Tage.",
+  "example_zh": "醫生給了我三天的病假證明。"
+ },
+ {
+  "word": "sich ausruhen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "休息",
+  "example": "Nach der Krankheit muss ich mich noch ausruhen.",
+  "example_zh": "生病後我還得休息。"
+ },
+ {
+  "word": "die Ernährung",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "營養、飲食",
+  "example": "Eine gesunde Ernährung ist wichtig für das Wohlbefinden.",
+  "example_zh": "健康的飲食對身心健康很重要。"
+ },
+ {
+  "word": "die Bewegung",
+  "plural": "die Bewegungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "運動、活動",
+  "example": "Mehr Bewegung tut dem Körper gut.",
+  "example_zh": "多運動對身體有益。"
+ },
+ {
+  "word": "der Stress",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "壓力",
+  "example": "Zu viel Stress macht auf Dauer krank.",
+  "example_zh": "長期壓力過大會使人生病。"
+ },
+ {
+  "word": "sich erholen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "復原、休養",
+  "example": "Im Urlaub konnte ich mich gut erholen.",
+  "example_zh": "度假時我好好休養了一番。"
+ },
+ {
+  "word": "die Allergie",
+  "plural": "die Allergien",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "過敏",
+  "example": "Ich habe eine Allergie gegen Katzenhaare.",
+  "example_zh": "我對貓毛過敏。"
+ },
+ {
+  "word": "schwanger",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "懷孕的",
+  "example": "Seine Frau ist im fünften Monat schwanger.",
+  "example_zh": "他太太懷孕五個月了。"
+ },
+ {
+  "word": "der Zahn",
+  "plural": "die Zähne",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "牙齒",
+  "example": "Zweimal im Jahr gehe ich zur Kontrolle der Zähne.",
+  "example_zh": "我一年兩次去檢查牙齒。"
+ },
+ {
+  "word": "der Zahnarzt",
+  "plural": "die Zahnärzte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "牙醫",
+  "example": "Ich habe Angst vor dem Zahnarzt.",
+  "example_zh": "我很怕看牙醫。"
+ },
+ {
+  "word": "die Wunde",
+  "plural": "die Wunden",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "傷口",
+  "example": "Die Wunde muss sauber gehalten werden.",
+  "example_zh": "傷口必須保持乾淨。"
+ },
+ {
+  "word": "schwindelig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "頭暈的",
+  "example": "Mir ist plötzlich ganz schwindelig geworden.",
+  "example_zh": "我突然覺得很暈。"
+ },
+ {
+  "word": "die Übelkeit",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "噁心",
+  "example": "Nach der Fahrt spürte sie eine leichte Übelkeit.",
+  "example_zh": "車程後她感到有點噁心。"
+ },
+ {
+  "word": "heilen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "痊癒、治癒",
+  "example": "Die Wunde ist gut geheilt.",
+  "example_zh": "傷口癒合得很好。"
+ },
+ {
+  "word": "die Praxis",
+  "plural": "die Praxen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "診所",
+  "example": "Die Praxis ist mittwochs nachmittags geschlossen.",
+  "example_zh": "診所週三下午休診。"
+ },
+ {
+  "word": "die Vorsorge",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "預防（保健）",
+  "example": "Zur Vorsorge sollte man regelmäßig zum Arzt gehen.",
+  "example_zh": "為了預防保健應定期看醫生。"
+ },
+ {
+  "word": "das Wohlbefinden",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "身心舒適、安康",
+  "example": "Guter Schlaf steigert das Wohlbefinden.",
+  "example_zh": "良好的睡眠提升身心舒適感。"
+ },
+ {
+  "word": "die Reise",
+  "plural": "die Reisen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "旅行",
+  "example": "Die Reise nach Italien war unvergesslich.",
+  "example_zh": "去義大利的旅行令人難忘。"
+ },
+ {
+  "word": "verreisen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "外出旅行",
+  "example": "Im Sommer verreisen wir meistens ans Meer.",
+  "example_zh": "夏天我們大多去海邊旅行。"
+ },
+ {
+  "word": "der Verkehr",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "交通",
+  "example": "Am Morgen ist der Verkehr besonders dicht.",
+  "example_zh": "早上交通特別擁擠。"
+ },
+ {
+  "word": "der Zug",
+  "plural": "die Züge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "火車",
+  "example": "Der Zug nach Köln fährt in zehn Minuten ab.",
+  "example_zh": "往科隆的火車十分鐘後開。"
+ },
+ {
+  "word": "die Bahn",
+  "plural": "die Bahnen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "鐵路、電車",
+  "example": "Ich fahre lieber mit der Bahn als mit dem Auto.",
+  "example_zh": "我搭火車勝過開車。"
+ },
+ {
+  "word": "der Bahnhof",
+  "plural": "die Bahnhöfe",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "火車站",
+  "example": "Wir treffen uns um acht am Hauptbahnhof.",
+  "example_zh": "我們八點在中央車站碰面。"
+ },
+ {
+  "word": "die Fahrkarte",
+  "plural": "die Fahrkarten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "車票",
+  "example": "Die Fahrkarte kannst du am Automaten kaufen.",
+  "example_zh": "車票可以在售票機買。"
+ },
+ {
+  "word": "die Verspätung",
+  "plural": "die Verspätungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "誤點、延誤",
+  "example": "Der Zug hatte heute dreißig Minuten Verspätung.",
+  "example_zh": "火車今天誤點三十分鐘。"
+ },
+ {
+  "word": "umsteigen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "轉車、換乘",
+  "example": "In Duisburg müssen wir in die S-Bahn umsteigen.",
+  "example_zh": "在杜伊斯堡我們得換乘城鐵。"
+ },
+ {
+  "word": "das Flugzeug",
+  "plural": "die Flugzeuge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "飛機",
+  "example": "Das Flugzeug landet pünktlich in Frankfurt.",
+  "example_zh": "飛機準時降落法蘭克福。"
+ },
+ {
+  "word": "der Flug",
+  "plural": "die Flüge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "航班",
+  "example": "Unser Flug wurde leider gestrichen.",
+  "example_zh": "我們的航班很可惜被取消了。"
+ },
+ {
+  "word": "der Flughafen",
+  "plural": "die Flughäfen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "機場",
+  "example": "Zum Flughafen fährt man am besten mit der Bahn.",
+  "example_zh": "去機場最好搭火車。"
+ },
+ {
+  "word": "der Koffer",
+  "plural": "die Koffer",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "行李箱",
+  "example": "Mein Koffer ist zu schwer für das Handgepäck.",
+  "example_zh": "我的行李箱太重不能當手提行李。"
+ },
+ {
+  "word": "das Gepäck",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "行李",
+  "example": "Wir haben nur wenig Gepäck dabei.",
+  "example_zh": "我們只帶了少量行李。"
+ },
+ {
+  "word": "buchen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "預訂",
+  "example": "Ich habe das Hotel schon online gebucht.",
+  "example_zh": "我已經在網路上訂好飯店了。"
+ },
+ {
+  "word": "die Unterkunft",
+  "plural": "die Unterkünfte",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "住宿",
+  "example": "Die Unterkunft lag mitten in der Altstadt.",
+  "example_zh": "住宿地點就在舊城區中心。"
+ },
+ {
+  "word": "das Hotel",
+  "plural": "die Hotels",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "飯店",
+  "example": "Das Hotel bietet ein reichhaltiges Frühstück.",
+  "example_zh": "這間飯店提供豐盛的早餐。"
+ },
+ {
+  "word": "die Straßenbahn",
+  "plural": "die Straßenbahnen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "路面電車",
+  "example": "Die Straßenbahn hält direkt vor dem Museum.",
+  "example_zh": "電車就停在博物館前。"
+ },
+ {
+  "word": "die U-Bahn",
+  "plural": "die U-Bahnen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "地鐵",
+  "example": "Mit der U-Bahn bist du in zehn Minuten da.",
+  "example_zh": "搭地鐵你十分鐘就到了。"
+ },
+ {
+  "word": "die Haltestelle",
+  "plural": "die Haltestellen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "車站、站牌",
+  "example": "Die nächste Haltestelle ist nur zwei Minuten entfernt.",
+  "example_zh": "下一站只有兩分鐘的距離。"
+ },
+ {
+  "word": "der Fahrplan",
+  "plural": "die Fahrpläne",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "時刻表",
+  "example": "Laut Fahrplan kommt der Bus um neun.",
+  "example_zh": "根據時刻表公車九點來。"
+ },
+ {
+  "word": "das öffentliche Verkehrsmittel",
+  "plural": "die öffentlichen Verkehrsmittel",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "大眾運輸工具",
+  "example": "In der Stadt nutze ich nur öffentliche Verkehrsmittel.",
+  "example_zh": "在城市裡我只搭大眾運輸。"
+ },
+ {
+  "word": "der Stau",
+  "plural": "die Staus",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "塞車",
+  "example": "Auf der Autobahn stehen wir seit einer Stunde im Stau.",
+  "example_zh": "我們在高速公路上塞車一小時了。"
+ },
+ {
+  "word": "die Autobahn",
+  "plural": "die Autobahnen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "高速公路",
+  "example": "Auf der Autobahn gibt es teilweise kein Tempolimit.",
+  "example_zh": "高速公路部分路段沒有速限。"
+ },
+ {
+  "word": "tanken",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "加油",
+  "example": "Vor der Fahrt muss ich noch tanken.",
+  "example_zh": "出發前我還得加油。"
+ },
+ {
+  "word": "der Führerschein",
+  "plural": "die Führerscheine",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "駕照",
+  "example": "Meinen Führerschein habe ich mit achtzehn gemacht.",
+  "example_zh": "我十八歲時考到駕照。"
+ },
+ {
+  "word": "mieten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "租（車/物）",
+  "example": "Im Urlaub haben wir ein Auto gemietet.",
+  "example_zh": "度假時我們租了一輛車。"
+ },
+ {
+  "word": "die Grenze",
+  "plural": "die Grenzen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "邊界、國界",
+  "example": "An der Grenze wurde unser Pass kontrolliert.",
+  "example_zh": "在邊界我們的護照被查驗。"
+ },
+ {
+  "word": "die Sehenswürdigkeit",
+  "plural": "die Sehenswürdigkeiten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "景點",
+  "example": "Der Dom ist die berühmteste Sehenswürdigkeit der Stadt.",
+  "example_zh": "大教堂是這座城市最著名的景點。"
+ },
+ {
+  "word": "besichtigen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "參觀、遊覽",
+  "example": "Am Wochenende besichtigen wir das alte Schloss.",
+  "example_zh": "週末我們去參觀那座古城堡。"
+ },
+ {
+  "word": "die Ausflug",
+  "plural": "die Ausflüge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "郊遊、短程旅行",
+  "example": "Wir machen am Sonntag einen Ausflug in den Wald.",
+  "example_zh": "我們週日去森林郊遊。"
+ },
+ {
+  "word": "der Urlaub",
+  "plural": "die Urlaube",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "假期",
+  "example": "Im Urlaub möchte ich einfach nur entspannen.",
+  "example_zh": "假期裡我只想放鬆。"
+ },
+ {
+  "word": "die Reservierung",
+  "plural": "die Reservierungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "預約、訂位",
+  "example": "Ich habe eine Reservierung auf den Namen Chen.",
+  "example_zh": "我有一個以Chen為名的訂位。"
+ },
+ {
+  "word": "der Fahrgast",
+  "plural": "die Fahrgäste",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "乘客",
+  "example": "Die Fahrgäste warten geduldig auf den Zug.",
+  "example_zh": "乘客耐心地等候火車。"
+ },
+ {
+  "word": "entwerten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "（車票）打印生效",
+  "example": "Vergiss nicht, deine Fahrkarte zu entwerten.",
+  "example_zh": "別忘了給你的車票打印生效。"
+ },
+ {
+  "word": "die Ankunft",
+  "plural": "die Ankünfte",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "抵達",
+  "example": "Die Ankunft des Zuges ist für 14 Uhr geplant.",
+  "example_zh": "火車預計十四點抵達。"
+ },
+ {
+  "word": "die Abfahrt",
+  "plural": "die Abfahrten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "出發、發車",
+  "example": "Die Abfahrt verzögert sich um zehn Minuten.",
+  "example_zh": "發車延後十分鐘。"
+ },
+ {
+  "word": "verpassen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "錯過",
+  "example": "Beeil dich, sonst verpassen wir den Bus.",
+  "example_zh": "快一點，不然我們會錯過公車。"
+ },
+ {
+  "word": "das Ziel",
+  "plural": "die Ziele",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "目的地、目標",
+  "example": "Unser Ziel ist ein kleines Dorf in den Alpen.",
+  "example_zh": "我們的目的地是阿爾卑斯山的一個小村莊。"
+ },
+ {
+  "word": "die Strecke",
+  "plural": "die Strecken",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "路程、路線",
+  "example": "Die Strecke von Essen nach Berlin ist ziemlich lang.",
+  "example_zh": "從埃森到柏林的路程相當長。"
+ },
+ {
+  "word": "unterwegs",
+  "plural": "",
+  "type": "Adverb",
+  "level": "B1",
+  "zh": "在途中",
+  "example": "Wir sind schon seit fünf Stunden unterwegs.",
+  "example_zh": "我們已經在路上五個小時了。"
+ },
+ {
+  "word": "der Ausweis",
+  "plural": "die Ausweise",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "證件",
+  "example": "An der Grenze musst du deinen Ausweis zeigen.",
+  "example_zh": "在邊界你必須出示證件。"
+ },
+ {
+  "word": "die Panne",
+  "plural": "die Pannen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "（車輛）故障、拋錨",
+  "example": "Wir hatten auf der Autobahn eine Panne.",
+  "example_zh": "我們在高速公路上車子拋錨了。"
+ },
+ {
+  "word": "das Fahrrad",
+  "plural": "die Fahrräder",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "腳踏車",
+  "example": "In Essen fahre ich oft mit dem Fahrrad zur Arbeit.",
+  "example_zh": "在埃森我常騎腳踏車上班。"
+ },
+ {
+  "word": "der Fußgänger",
+  "plural": "die Fußgänger",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "行人",
+  "example": "An der Ampel müssen Fußgänger warten.",
+  "example_zh": "在紅綠燈前行人必須等候。"
+ },
+ {
+  "word": "die Ampel",
+  "plural": "die Ampeln",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "紅綠燈",
+  "example": "Bei roter Ampel muss man stehen bleiben.",
+  "example_zh": "紅燈時必須停下。"
+ },
+ {
+  "word": "abholen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "接、取（人/物）",
+  "example": "Ich hole dich um sieben am Bahnhof ab.",
+  "example_zh": "我七點在車站接你。"
+ },
+ {
+  "word": "der Schaffner",
+  "plural": "die Schaffner",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "列車長、查票員",
+  "example": "Der Schaffner kontrolliert die Fahrkarten.",
+  "example_zh": "查票員在查驗車票。"
+ },
+ {
+  "word": "die Maut",
+  "plural": "die Mauten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "（道路）通行費",
+  "example": "In Österreich muss man für die Autobahn Maut zahlen.",
+  "example_zh": "在奧地利上高速公路要付通行費。"
+ },
+ {
+  "word": "das Navi",
+  "plural": "die Navis",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "衛星導航",
+  "example": "Ohne Navi hätten wir den Weg nicht gefunden.",
+  "example_zh": "沒有導航我們就找不到路了。"
+ },
+ {
+  "word": "die Mahlzeit",
+  "plural": "die Mahlzeiten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "一餐",
+  "example": "Das Frühstück ist für mich die wichtigste Mahlzeit.",
+  "example_zh": "早餐對我來說是最重要的一餐。"
+ },
+ {
+  "word": "die Zutat",
+  "plural": "die Zutaten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "食材、原料",
+  "example": "Für den Kuchen brauchst du nur fünf Zutaten.",
+  "example_zh": "做這個蛋糕你只需要五種食材。"
+ },
+ {
+  "word": "kochen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "烹飪、煮",
+  "example": "Am Wochenende koche ich gern für Freunde.",
+  "example_zh": "週末我喜歡為朋友下廚。"
+ },
+ {
+  "word": "backen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "烘焙、烤",
+  "example": "Zu Weihnachten backen wir viele Plätzchen.",
+  "example_zh": "聖誕節我們烤很多小餅乾。"
+ },
+ {
+  "word": "braten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "煎、炒",
+  "example": "Ich brate das Fleisch in etwas Öl an.",
+  "example_zh": "我用一點油把肉煎一下。"
+ },
+ {
+  "word": "die Pfanne",
+  "plural": "die Pfannen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "平底鍋",
+  "example": "Gib das Gemüse in die heiße Pfanne.",
+  "example_zh": "把蔬菜放進熱鍋裡。"
+ },
+ {
+  "word": "der Topf",
+  "plural": "die Töpfe",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "鍋子",
+  "example": "Das Wasser im Topf kocht schon.",
+  "example_zh": "鍋裡的水已經滾了。"
+ },
+ {
+  "word": "das Gericht",
+  "plural": "die Gerichte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "菜餚",
+  "example": "Dieses Gericht ist eine Spezialität aus Bayern.",
+  "example_zh": "這道菜是巴伐利亞的特色料理。"
+ },
+ {
+  "word": "die Speisekarte",
+  "plural": "die Speisekarten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "菜單",
+  "example": "Könnten wir bitte die Speisekarte haben?",
+  "example_zh": "可以給我們菜單嗎？"
+ },
+ {
+  "word": "bestellen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "點餐、訂購",
+  "example": "Ich bestelle einen Salat und eine Suppe.",
+  "example_zh": "我點一份沙拉和一份湯。"
+ },
+ {
+  "word": "die Rechnung",
+  "plural": "die Rechnungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "帳單",
+  "example": "Die Rechnung, bitte! Wir zahlen zusammen.",
+  "example_zh": "請結帳！我們一起付。"
+ },
+ {
+  "word": "das Trinkgeld",
+  "plural": "die Trinkgelder",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "小費",
+  "example": "In Deutschland gibt man etwa zehn Prozent Trinkgeld.",
+  "example_zh": "在德國通常給約一成的小費。"
+ },
+ {
+  "word": "der Geschmack",
+  "plural": "die Geschmäcker",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "味道、口味",
+  "example": "Die Suppe hat einen sehr feinen Geschmack.",
+  "example_zh": "這湯的味道非常細緻。"
+ },
+ {
+  "word": "schmecken",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "嚐起來、好吃",
+  "example": "Das selbstgemachte Brot schmeckt hervorragend.",
+  "example_zh": "自製的麵包非常好吃。"
+ },
+ {
+  "word": "lecker",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "美味的",
+  "example": "Der Kuchen sieht wirklich lecker aus.",
+  "example_zh": "這蛋糕看起來真的很好吃。"
+ },
+ {
+  "word": "süß",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "甜的",
+  "example": "Der Nachtisch war mir ein bisschen zu süß.",
+  "example_zh": "甜點對我來說有點太甜。"
+ },
+ {
+  "word": "salzig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "鹹的",
+  "example": "Die Suppe ist mir leider zu salzig.",
+  "example_zh": "這湯對我來說可惜太鹹了。"
+ },
+ {
+  "word": "scharf",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "辣的",
+  "example": "Ich mag das Curry gern richtig scharf.",
+  "example_zh": "我喜歡咖哩夠辣。"
+ },
+ {
+  "word": "der Supermarkt",
+  "plural": "die Supermärkte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "超市",
+  "example": "Im Supermarkt um die Ecke kaufe ich täglich ein.",
+  "example_zh": "我每天在轉角的超市買東西。"
+ },
+ {
+  "word": "einkaufen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "購物",
+  "example": "Am Samstag kaufe ich für die ganze Woche ein.",
+  "example_zh": "週六我買齊一整週的東西。"
+ },
+ {
+  "word": "der Markt",
+  "plural": "die Märkte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "市場",
+  "example": "Auf dem Markt gibt es frisches Obst und Gemüse.",
+  "example_zh": "市場上有新鮮的水果和蔬菜。"
+ },
+ {
+  "word": "die Kasse",
+  "plural": "die Kassen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "收銀台",
+  "example": "An der Kasse musste ich lange anstehen.",
+  "example_zh": "在收銀台我排了很久的隊。"
+ },
+ {
+  "word": "das Angebot",
+  "plural": "die Angebote",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "特價、優惠",
+  "example": "Diese Woche ist Kaffee im Angebot.",
+  "example_zh": "這週咖啡在特價。"
+ },
+ {
+  "word": "der Preis",
+  "plural": "die Preise",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "價格",
+  "example": "Die Preise für Lebensmittel sind stark gestiegen.",
+  "example_zh": "食品的價格大幅上漲。"
+ },
+ {
+  "word": "das Obst",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "水果",
+  "example": "Ich esse jeden Tag frisches Obst.",
+  "example_zh": "我每天吃新鮮水果。"
+ },
+ {
+  "word": "das Gemüse",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "蔬菜",
+  "example": "Gemüse aus der Region schmeckt am besten.",
+  "example_zh": "本地的蔬菜最好吃。"
+ },
+ {
+  "word": "das Fleisch",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "肉",
+  "example": "Er isst seit einem Jahr kein Fleisch mehr.",
+  "example_zh": "他一年來不再吃肉了。"
+ },
+ {
+  "word": "das Getränk",
+  "plural": "die Getränke",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "飲料",
+  "example": "Welches Getränk möchtest du dazu?",
+  "example_zh": "你想搭配什麼飲料？"
+ },
+ {
+  "word": "frisch",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "新鮮的",
+  "example": "Das Brot ist heute Morgen ganz frisch gebacken.",
+  "example_zh": "這麵包今天早上剛出爐。"
+ },
+ {
+  "word": "die Portion",
+  "plural": "die Portionen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "份量",
+  "example": "Die Portion im Restaurant war sehr großzügig.",
+  "example_zh": "餐廳的份量非常大方。"
+ },
+ {
+  "word": "satt",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "飽的",
+  "example": "Danke, ich bin schon satt.",
+  "example_zh": "謝謝，我已經飽了。"
+ },
+ {
+  "word": "der Durst",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "口渴",
+  "example": "Nach dem Sport habe ich großen Durst.",
+  "example_zh": "運動後我非常口渴。"
+ },
+ {
+  "word": "der Hunger",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "飢餓",
+  "example": "Ich habe langsam Hunger, lass uns essen gehen.",
+  "example_zh": "我慢慢餓了，我們去吃飯吧。"
+ },
+ {
+  "word": "probieren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "試吃、嘗試",
+  "example": "Möchtest du meinen Nachtisch mal probieren?",
+  "example_zh": "你要不要試試我的甜點？"
+ },
+ {
+  "word": "vegetarisch",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "素食的",
+  "example": "Gibt es hier auch vegetarische Gerichte?",
+  "example_zh": "這裡也有素食料理嗎？"
+ },
+ {
+  "word": "die Nachspeise",
+  "plural": "die Nachspeisen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "甜點、餐後點心",
+  "example": "Als Nachspeise nehme ich ein Eis.",
+  "example_zh": "甜點我要一份冰淇淋。"
+ },
+ {
+  "word": "die Vorspeise",
+  "plural": "die Vorspeisen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "前菜",
+  "example": "Als Vorspeise gab es eine leichte Suppe.",
+  "example_zh": "前菜是一份清淡的湯。"
+ },
+ {
+  "word": "die Beilage",
+  "plural": "die Beilagen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "配菜",
+  "example": "Zum Fleisch nehme ich Kartoffeln als Beilage.",
+  "example_zh": "配肉我要馬鈴薯當配菜。"
+ },
+ {
+  "word": "würzen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "調味",
+  "example": "Ich würze die Soße mit Salz und Pfeffer.",
+  "example_zh": "我用鹽和胡椒為醬汁調味。"
+ },
+ {
+  "word": "die Tüte",
+  "plural": "die Tüten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "袋子",
+  "example": "Brauchen Sie eine Tüte für Ihren Einkauf?",
+  "example_zh": "您買的東西需要袋子嗎？"
+ },
+ {
+  "word": "der Kassenbon",
+  "plural": "die Kassenbons",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "收據",
+  "example": "Bewahren Sie den Kassenbon für den Umtausch auf.",
+  "example_zh": "請保留收據以便退換。"
+ },
+ {
+  "word": "das Lebensmittel",
+  "plural": "die Lebensmittel",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "食品",
+  "example": "Lebensmittel sollte man nicht verschwenden.",
+  "example_zh": "食物不該被浪費。"
+ },
+ {
+  "word": "das Mindesthaltbarkeitsdatum",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "最佳賞味期限",
+  "example": "Das Mindesthaltbarkeitsdatum ist schon abgelaufen.",
+  "example_zh": "最佳賞味期限已經過了。"
+ },
+ {
+  "word": "die Bäckerei",
+  "plural": "die Bäckereien",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "麵包店",
+  "example": "Die Bäckerei öffnet schon um sechs Uhr morgens.",
+  "example_zh": "麵包店早上六點就開了。"
+ },
+ {
+  "word": "die Metzgerei",
+  "plural": "die Metzgereien",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "肉舖",
+  "example": "In der Metzgerei kaufe ich frische Wurst.",
+  "example_zh": "我在肉舖買新鮮的香腸。"
+ },
+ {
+  "word": "der Nachschlag",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "（食物）再來一份",
+  "example": "Das Essen war so gut, dass ich einen Nachschlag wollte.",
+  "example_zh": "飯菜太好吃了，我還想再來一份。"
+ },
+ {
+  "word": "der Rabatt",
+  "plural": "die Rabatte",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "折扣",
+  "example": "Mit der Kundenkarte bekommst du zehn Prozent Rabatt.",
+  "example_zh": "用會員卡可以打九折。"
+ },
+ {
+  "word": "abgelaufen",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "過期的",
+  "example": "Der Joghurt ist leider schon abgelaufen.",
+  "example_zh": "優格很可惜已經過期了。"
+ },
+ {
+  "word": "der Vorrat",
+  "plural": "die Vorräte",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "存貨、儲備",
+  "example": "Wir haben immer einen Vorrat an Reis zu Hause.",
+  "example_zh": "我們家裡總是備有米的存貨。"
+ },
+ {
+  "word": "das Gefühl",
+  "plural": "die Gefühle",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "感覺、情感",
+  "example": "Ich hatte das Gefühl, dass etwas nicht stimmt.",
+  "example_zh": "我有種感覺，覺得哪裡不對勁。"
+ },
+ {
+  "word": "glücklich",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "幸福的、快樂的",
+  "example": "Seit dem Umzug fühlt sie sich sehr glücklich.",
+  "example_zh": "搬家後她感到非常幸福。"
+ },
+ {
+  "word": "traurig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "傷心的",
+  "example": "Er war traurig, weil sein Freund weggezogen ist.",
+  "example_zh": "他很傷心，因為朋友搬走了。"
+ },
+ {
+  "word": "wütend",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "憤怒的",
+  "example": "Sie wurde wütend, als niemand ihr zuhörte.",
+  "example_zh": "沒人聽她說話時她變得很生氣。"
+ },
+ {
+  "word": "ärgern",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "生氣、惱怒",
+  "example": "Ich ärgere mich über den langsamen Service.",
+  "example_zh": "我對緩慢的服務感到惱怒。"
+ },
+ {
+  "word": "sich freuen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "高興、期待",
+  "example": "Ich freue mich sehr auf das Wochenende.",
+  "example_zh": "我很期待週末。"
+ },
+ {
+  "word": "die Angst",
+  "plural": "die Ängste",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "害怕、恐懼",
+  "example": "Er hat Angst vor großen Hunden.",
+  "example_zh": "他害怕大狗。"
+ },
+ {
+  "word": "stolz",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "自豪的",
+  "example": "Die Eltern sind stolz auf ihre Tochter.",
+  "example_zh": "父母為女兒感到驕傲。"
+ },
+ {
+  "word": "enttäuscht",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "失望的",
+  "example": "Ich war enttäuscht über das Ergebnis.",
+  "example_zh": "我對結果感到失望。"
+ },
+ {
+  "word": "nervös",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "緊張的",
+  "example": "Vor dem Vorstellungsgespräch war ich sehr nervös.",
+  "example_zh": "面試前我非常緊張。"
+ },
+ {
+  "word": "aufgeregt",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "興奮的、激動的",
+  "example": "Die Kinder waren vor der Reise ganz aufgeregt.",
+  "example_zh": "旅行前孩子們興奮不已。"
+ },
+ {
+  "word": "entspannt",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "放鬆的",
+  "example": "Nach dem Urlaub fühle ich mich sehr entspannt.",
+  "example_zh": "度假後我感到非常放鬆。"
+ },
+ {
+  "word": "eifersüchtig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "嫉妒的",
+  "example": "Er wird schnell eifersüchtig.",
+  "example_zh": "他很容易吃醋。"
+ },
+ {
+  "word": "der Charakter",
+  "plural": "die Charaktere",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "性格",
+  "example": "Sie hat einen ruhigen und freundlichen Charakter.",
+  "example_zh": "她的性格沉穩又友善。"
+ },
+ {
+  "word": "die Persönlichkeit",
+  "plural": "die Persönlichkeiten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "個性、人格",
+  "example": "Seine offene Persönlichkeit gefällt allen.",
+  "example_zh": "他開朗的個性大家都喜歡。"
+ },
+ {
+  "word": "ehrlich",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "誠實的",
+  "example": "Ich schätze es, dass du immer ehrlich bist.",
+  "example_zh": "我很欣賞你總是誠實。"
+ },
+ {
+  "word": "geduldig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "有耐心的",
+  "example": "Als Lehrer muss man sehr geduldig sein.",
+  "example_zh": "當老師必須非常有耐心。"
+ },
+ {
+  "word": "höflich",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "有禮貌的",
+  "example": "Er ist immer höflich zu älteren Menschen.",
+  "example_zh": "他對長輩總是很有禮貌。"
+ },
+ {
+  "word": "freundlich",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "友善的",
+  "example": "Die Nachbarn haben uns freundlich begrüßt.",
+  "example_zh": "鄰居友善地歡迎我們。"
+ },
+ {
+  "word": "selbstbewusst",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "有自信的",
+  "example": "Im Gespräch trat er sehr selbstbewusst auf.",
+  "example_zh": "談話中他表現得很有自信。"
+ },
+ {
+  "word": "schüchtern",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "害羞的",
+  "example": "Als Kind war er sehr schüchtern.",
+  "example_zh": "小時候他非常害羞。"
+ },
+ {
+  "word": "die Freundschaft",
+  "plural": "die Freundschaften",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "友誼",
+  "example": "Unsere Freundschaft hält schon zwanzig Jahre.",
+  "example_zh": "我們的友誼已經維持二十年了。"
+ },
+ {
+  "word": "sich verlieben",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "愛上",
+  "example": "Sie hat sich in einen Kollegen verliebt.",
+  "example_zh": "她愛上了一位同事。"
+ },
+ {
+  "word": "die Beziehung",
+  "plural": "die Beziehungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "關係",
+  "example": "Eine gute Beziehung braucht Vertrauen.",
+  "example_zh": "良好的關係需要信任。"
+ },
+ {
+  "word": "vertrauen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "信任",
+  "example": "Ich vertraue meinen engsten Freunden völlig.",
+  "example_zh": "我完全信任我最親密的朋友。"
+ },
+ {
+  "word": "das Vertrauen",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "信任",
+  "example": "Einmal verlorenes Vertrauen ist schwer zurückzugewinnen.",
+  "example_zh": "一旦失去的信任很難再挽回。"
+ },
+ {
+  "word": "der Streit",
+  "plural": "die Streite",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "爭吵",
+  "example": "Nach dem Streit haben sie sich wieder versöhnt.",
+  "example_zh": "爭吵後他們又和好了。"
+ },
+ {
+  "word": "sich streiten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "爭吵",
+  "example": "Die Geschwister streiten sich oft um Kleinigkeiten.",
+  "example_zh": "兄弟姊妹常為小事爭吵。"
+ },
+ {
+  "word": "sich versöhnen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "和解",
+  "example": "Nach einer Woche haben sie sich endlich versöhnt.",
+  "example_zh": "一週後他們終於和解了。"
+ },
+ {
+  "word": "die Familie",
+  "plural": "die Familien",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "家庭",
+  "example": "Meine Familie lebt noch in Taiwan.",
+  "example_zh": "我的家人還住在台灣。"
+ },
+ {
+  "word": "die Verwandten",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "親戚（複數）",
+  "example": "Zu Weihnachten besuchen wir alle Verwandten.",
+  "example_zh": "聖誕節我們拜訪所有親戚。"
+ },
+ {
+  "word": "einladen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "邀請",
+  "example": "Wir laden dich herzlich zu unserer Feier ein.",
+  "example_zh": "我們誠摯邀請你參加我們的慶祝會。"
+ },
+ {
+  "word": "die Rücksicht",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "體諒、顧慮",
+  "example": "Man sollte Rücksicht auf die Nachbarn nehmen.",
+  "example_zh": "應該體諒鄰居。"
+ },
+ {
+  "word": "verständnisvoll",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "善解人意的",
+  "example": "Meine Chefin ist in solchen Situationen sehr verständnisvoll.",
+  "example_zh": "我的女主管在這種情況下非常善解人意。"
+ },
+ {
+  "word": "das Missverständnis",
+  "plural": "die Missverständnisse",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "誤會",
+  "example": "Das war nur ein kleines Missverständnis.",
+  "example_zh": "那只是個小誤會。"
+ },
+ {
+  "word": "sich entschuldigen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "道歉",
+  "example": "Er hat sich für seine Verspätung entschuldigt.",
+  "example_zh": "他為遲到道了歉。"
+ },
+ {
+  "word": "trösten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "安慰",
+  "example": "Sie tröstete ihre Freundin nach der schlechten Nachricht.",
+  "example_zh": "聽到壞消息後她安慰了她的朋友。"
+ },
+ {
+  "word": "die Laune",
+  "plural": "die Launen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "心情、情緒",
+  "example": "Er ist heute schlechter Laune.",
+  "example_zh": "他今天心情不好。"
+ },
+ {
+  "word": "lächeln",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "微笑",
+  "example": "Sie lächelte freundlich, als sie mich sah.",
+  "example_zh": "她看到我時友善地微笑。"
+ },
+ {
+  "word": "weinen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "哭",
+  "example": "Vor Freude fing sie an zu weinen.",
+  "example_zh": "她高興得哭了起來。"
+ },
+ {
+  "word": "hoffen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "希望",
+  "example": "Ich hoffe, dass alles gut wird.",
+  "example_zh": "我希望一切都會好起來。"
+ },
+ {
+  "word": "die Hoffnung",
+  "plural": "die Hoffnungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "希望",
+  "example": "Auch in schweren Zeiten darf man die Hoffnung nicht verlieren.",
+  "example_zh": "即使在艱難時刻也不能失去希望。"
+ },
+ {
+  "word": "zufrieden",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "滿意的",
+  "example": "Ich bin mit meinem neuen Leben in Essen zufrieden.",
+  "example_zh": "我對在埃森的新生活感到滿意。"
+ },
+ {
+  "word": "neugierig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "好奇的",
+  "example": "Die Kinder sind neugierig auf alles Neue.",
+  "example_zh": "孩子們對一切新事物都很好奇。"
+ },
+ {
+  "word": "mutig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "勇敢的",
+  "example": "Es war mutig, in ein neues Land zu ziehen.",
+  "example_zh": "搬到一個新國家是很勇敢的。"
+ },
+ {
+  "word": "einsam",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "孤獨的",
+  "example": "Am Anfang fühlte er sich im Ausland oft einsam.",
+  "example_zh": "起初他在國外常感到孤獨。"
+ },
+ {
+  "word": "dankbar",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "感激的",
+  "example": "Ich bin dir für deine Hilfe sehr dankbar.",
+  "example_zh": "我非常感激你的幫助。"
+ },
+ {
+  "word": "die Sehnsucht",
+  "plural": "die Sehnsüchte",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "思念、渴望",
+  "example": "Manchmal habe ich Sehnsucht nach meiner Heimat.",
+  "example_zh": "有時我很思念我的家鄉。"
+ },
+ {
+  "word": "gelassen",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "從容的、鎮定的",
+  "example": "Trotz des Drucks blieb sie ganz gelassen.",
+  "example_zh": "儘管有壓力，她依然十分鎮定。"
+ },
+ {
+  "word": "der Computer",
+  "plural": "die Computer",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "電腦",
+  "example": "Mein Computer ist gestern plötzlich abgestürzt.",
+  "example_zh": "我的電腦昨天突然當機了。"
+ },
+ {
+  "word": "der Rechner",
+  "plural": "die Rechner",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "電腦、計算機",
+  "example": "Der neue Rechner ist viel schneller als der alte.",
+  "example_zh": "新電腦比舊的快多了。"
+ },
+ {
+  "word": "die Software",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "軟體",
+  "example": "Die Software muss regelmäßig aktualisiert werden.",
+  "example_zh": "軟體必須定期更新。"
+ },
+ {
+  "word": "das Programm",
+  "plural": "die Programme",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "程式",
+  "example": "Dieses Programm hilft mir bei der Buchhaltung.",
+  "example_zh": "這個程式幫我做記帳。"
+ },
+ {
+  "word": "programmieren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "編寫程式",
+  "example": "Er programmiert seit seiner Jugend in Java.",
+  "example_zh": "他從青少年時期就用Java寫程式。"
+ },
+ {
+  "word": "die Datei",
+  "plural": "die Dateien",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "檔案",
+  "example": "Ich habe die Datei aus Versehen gelöscht.",
+  "example_zh": "我不小心刪掉了那個檔案。"
+ },
+ {
+  "word": "die Daten",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "資料、數據",
+  "example": "Alle Daten werden verschlüsselt gespeichert.",
+  "example_zh": "所有資料都以加密方式儲存。"
+ },
+ {
+  "word": "speichern",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "儲存",
+  "example": "Vergiss nicht, das Dokument zu speichern.",
+  "example_zh": "別忘了儲存文件。"
+ },
+ {
+  "word": "löschen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "刪除",
+  "example": "Du kannst alte E-Mails einfach löschen.",
+  "example_zh": "你可以直接刪除舊的電子郵件。"
+ },
+ {
+  "word": "herunterladen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "下載",
+  "example": "Die App kannst du kostenlos herunterladen.",
+  "example_zh": "這個應用程式你可以免費下載。"
+ },
+ {
+  "word": "hochladen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "上傳",
+  "example": "Bitte laden Sie Ihren Lebenslauf hier hoch.",
+  "example_zh": "請在此上傳您的履歷。"
+ },
+ {
+  "word": "das Internet",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "網際網路",
+  "example": "Ohne Internet kann ich kaum arbeiten.",
+  "example_zh": "沒有網路我幾乎無法工作。"
+ },
+ {
+  "word": "die Webseite",
+  "plural": "die Webseiten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "網站",
+  "example": "Die Webseite lädt heute sehr langsam.",
+  "example_zh": "這個網站今天載入得很慢。"
+ },
+ {
+  "word": "der Browser",
+  "plural": "die Browser",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "瀏覽器",
+  "example": "Öffne den Link am besten in einem anderen Browser.",
+  "example_zh": "這個連結最好用另一個瀏覽器開。"
+ },
+ {
+  "word": "das Passwort",
+  "plural": "die Passwörter",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "密碼",
+  "example": "Dein Passwort sollte mindestens acht Zeichen haben.",
+  "example_zh": "你的密碼至少要有八個字元。"
+ },
+ {
+  "word": "das Konto",
+  "plural": "die Konten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "帳戶",
+  "example": "Ich habe mein Konto mit einem neuen Passwort gesichert.",
+  "example_zh": "我用新密碼保護我的帳戶。"
+ },
+ {
+  "word": "sich anmelden",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "登入",
+  "example": "Du musst dich zuerst mit deiner E-Mail anmelden.",
+  "example_zh": "你必須先用電子郵件登入。"
+ },
+ {
+  "word": "die Anwendung",
+  "plural": "die Anwendungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "應用程式",
+  "example": "Diese Anwendung läuft auch auf dem Handy.",
+  "example_zh": "這個應用程式在手機上也能跑。"
+ },
+ {
+  "word": "aktualisieren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "更新",
+  "example": "Bitte aktualisieren Sie Ihre persönlichen Daten.",
+  "example_zh": "請更新您的個人資料。"
+ },
+ {
+  "word": "die Verbindung",
+  "plural": "die Verbindungen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "連線、連結",
+  "example": "Die Verbindung zum Server ist unterbrochen.",
+  "example_zh": "與伺服器的連線中斷了。"
+ },
+ {
+  "word": "der Server",
+  "plural": "die Server",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "伺服器",
+  "example": "Der Server ist wegen Wartung kurz nicht erreichbar.",
+  "example_zh": "伺服器因維護暫時無法連上。"
+ },
+ {
+  "word": "der Bildschirm",
+  "plural": "die Bildschirme",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "螢幕",
+  "example": "Nach Stunden am Bildschirm tun mir die Augen weh.",
+  "example_zh": "盯著螢幕幾小時後我的眼睛痛。"
+ },
+ {
+  "word": "die Tastatur",
+  "plural": "die Tastaturen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "鍵盤",
+  "example": "Die deutsche Tastatur hat Umlaute wie ä und ö.",
+  "example_zh": "德文鍵盤有ä和ö這類變音符。"
+ },
+ {
+  "word": "die Maus",
+  "plural": "die Mäuse",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "滑鼠",
+  "example": "Meine kabellose Maus braucht neue Batterien.",
+  "example_zh": "我的無線滑鼠需要換新電池。"
+ },
+ {
+  "word": "drucken",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "列印",
+  "example": "Kannst du mir bitte das Dokument drucken?",
+  "example_zh": "你可以幫我列印這份文件嗎？"
+ },
+ {
+  "word": "der Drucker",
+  "plural": "die Drucker",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "印表機",
+  "example": "Der Drucker hat schon wieder kein Papier.",
+  "example_zh": "印表機又沒紙了。"
+ },
+ {
+  "word": "die Sicherheit",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "安全性",
+  "example": "Die Sicherheit der Daten hat höchste Priorität.",
+  "example_zh": "資料的安全性是最高優先。"
+ },
+ {
+  "word": "der Virus",
+  "plural": "die Viren",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "病毒",
+  "example": "Ein Virus hat meinen ganzen Rechner lahmgelegt.",
+  "example_zh": "一個病毒讓我整台電腦癱瘓了。"
+ },
+ {
+  "word": "sichern",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "備份、保護",
+  "example": "Ich sichere meine Fotos regelmäßig in der Cloud.",
+  "example_zh": "我定期把照片備份到雲端。"
+ },
+ {
+  "word": "digital",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "數位的",
+  "example": "Immer mehr Dienste werden heute digital angeboten.",
+  "example_zh": "如今越來越多服務以數位方式提供。"
+ },
+ {
+  "word": "die Künstliche Intelligenz",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "人工智慧",
+  "example": "Künstliche Intelligenz verändert viele Berufe.",
+  "example_zh": "人工智慧正在改變許多職業。"
+ },
+ {
+  "word": "der Nutzer",
+  "plural": "die Nutzer",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "使用者",
+  "example": "Die App hat schon über eine Million Nutzer.",
+  "example_zh": "這個應用程式已有超過一百萬使用者。"
+ },
+ {
+  "word": "die Cloud",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "雲端",
+  "example": "Meine Dokumente liegen alle in der Cloud.",
+  "example_zh": "我的文件全都存在雲端。"
+ },
+ {
+  "word": "das Gerät",
+  "plural": "die Geräte",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "設備、裝置",
+  "example": "Auf welchem Gerät möchtest du das öffnen?",
+  "example_zh": "你想在哪個裝置上打開它？"
+ },
+ {
+  "word": "das Smartphone",
+  "plural": "die Smartphones",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "智慧型手機",
+  "example": "Ohne Smartphone fühlen sich viele verloren.",
+  "example_zh": "沒有智慧型手機很多人會覺得無所適從。"
+ },
+ {
+  "word": "die Nachricht",
+  "plural": "die Nachrichten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "訊息、消息",
+  "example": "Ich schicke dir gleich eine Nachricht.",
+  "example_zh": "我馬上傳一則訊息給你。"
+ },
+ {
+  "word": "die Einstellung",
+  "plural": "die Einstellungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "設定",
+  "example": "Die Sprache kannst du in den Einstellungen ändern.",
+  "example_zh": "語言可以在設定裡更改。"
+ },
+ {
+  "word": "funktionieren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "運作、有作用",
+  "example": "Das WLAN funktioniert heute leider nicht.",
+  "example_zh": "無線網路今天很可惜不能用。"
+ },
+ {
+  "word": "abstürzen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "當機、崩潰",
+  "example": "Das Programm ist mitten in der Arbeit abgestürzt.",
+  "example_zh": "程式在工作中途當機了。"
+ },
+ {
+  "word": "eingeben",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "輸入",
+  "example": "Bitte geben Sie Ihre Kundennummer ein.",
+  "example_zh": "請輸入您的客戶編號。"
+ },
+ {
+  "word": "die Suchmaschine",
+  "plural": "die Suchmaschinen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "搜尋引擎",
+  "example": "Diese Frage kannst du über eine Suchmaschine klären.",
+  "example_zh": "這個問題你可以用搜尋引擎查清楚。"
+ },
+ {
+  "word": "der Anhang",
+  "plural": "die Anhänge",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "附件",
+  "example": "Meinen Lebenslauf finden Sie im Anhang.",
+  "example_zh": "我的履歷請見附件。"
+ },
+ {
+  "word": "verschlüsseln",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "加密",
+  "example": "Sensible Daten sollte man immer verschlüsseln.",
+  "example_zh": "敏感資料應該總是加密。"
+ },
+ {
+  "word": "das Update",
+  "plural": "die Updates",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "更新（版本）",
+  "example": "Nach dem Update läuft alles wieder stabil.",
+  "example_zh": "更新後一切又恢復穩定。"
+ },
+ {
+  "word": "kabellos",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "無線的",
+  "example": "Die neuen Kopfhörer sind komplett kabellos.",
+  "example_zh": "這副新耳機完全是無線的。"
+ },
+ {
+  "word": "der Zugang",
+  "plural": "die Zugänge",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "存取權、進入",
+  "example": "Nur Mitarbeiter haben Zugang zu diesem System.",
+  "example_zh": "只有員工能存取這個系統。"
+ },
+ {
+  "word": "benutzerfreundlich",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "易於使用的",
+  "example": "Die neue Oberfläche ist sehr benutzerfreundlich.",
+  "example_zh": "新的介面非常好用。"
+ },
+ {
+  "word": "vernetzen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "連結、聯網",
+  "example": "Immer mehr Geräte sind miteinander vernetzt.",
+  "example_zh": "越來越多裝置彼此聯網。"
+ },
+ {
+  "word": "der Fehler",
+  "plural": "die Fehler",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "錯誤",
+  "example": "Im Code hat sich ein kleiner Fehler eingeschlichen.",
+  "example_zh": "程式碼裡混入了一個小錯誤。"
+ },
+ {
+  "word": "die Natur",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "大自然",
+  "example": "Am Wochenende genieße ich gern die Natur.",
+  "example_zh": "週末我喜歡享受大自然。"
+ },
+ {
+  "word": "die Umwelt",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "環境",
+  "example": "Wir alle müssen die Umwelt besser schützen.",
+  "example_zh": "我們都必須更好地保護環境。"
+ },
+ {
+  "word": "der Umweltschutz",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "環境保護",
+  "example": "Umweltschutz beginnt im eigenen Haushalt.",
+  "example_zh": "環保從自己的家開始。"
+ },
+ {
+  "word": "das Klima",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "氣候",
+  "example": "Das Klima hat sich in den letzten Jahren verändert.",
+  "example_zh": "近年來氣候有所改變。"
+ },
+ {
+  "word": "der Klimawandel",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "氣候變遷",
+  "example": "Der Klimawandel betrifft die ganze Welt.",
+  "example_zh": "氣候變遷影響全世界。"
+ },
+ {
+  "word": "das Wetter",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "天氣",
+  "example": "Das Wetter in Essen ist oft grau und regnerisch.",
+  "example_zh": "埃森的天氣常常灰濛濛又多雨。"
+ },
+ {
+  "word": "der Regen",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "雨",
+  "example": "Nach dem Regen kam die Sonne wieder heraus.",
+  "example_zh": "雨後太陽又出來了。"
+ },
+ {
+  "word": "der Schnee",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "雪",
+  "example": "Im Winter liegt hier oft Schnee.",
+  "example_zh": "冬天這裡常有積雪。"
+ },
+ {
+  "word": "der Sturm",
+  "plural": "die Stürme",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "暴風",
+  "example": "Der Sturm hat gestern viele Bäume umgeworfen.",
+  "example_zh": "昨天的暴風吹倒了許多樹。"
+ },
+ {
+  "word": "der Wind",
+  "plural": "die Winde",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "風",
+  "example": "Heute weht ein kalter Wind aus dem Norden.",
+  "example_zh": "今天吹著來自北方的冷風。"
+ },
+ {
+  "word": "die Wolke",
+  "plural": "die Wolken",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "雲",
+  "example": "Dunkle Wolken kündigen ein Gewitter an.",
+  "example_zh": "烏雲預示著雷雨將至。"
+ },
+ {
+  "word": "die Sonne",
+  "plural": "die Sonnen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "太陽",
+  "example": "Endlich scheint wieder die Sonne.",
+  "example_zh": "太陽終於又出來了。"
+ },
+ {
+  "word": "neblig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "多霧的",
+  "example": "Am frühen Morgen war es sehr neblig.",
+  "example_zh": "清晨霧氣很重。"
+ },
+ {
+  "word": "der Wald",
+  "plural": "die Wälder",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "森林",
+  "example": "Im Wald ist die Luft besonders frisch.",
+  "example_zh": "森林裡的空氣特別清新。"
+ },
+ {
+  "word": "der Baum",
+  "plural": "die Bäume",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "樹",
+  "example": "Vor dem Haus steht ein alter Baum.",
+  "example_zh": "房子前有一棵老樹。"
+ },
+ {
+  "word": "die Pflanze",
+  "plural": "die Pflanzen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "植物",
+  "example": "Ich vergesse manchmal, die Pflanzen zu gießen.",
+  "example_zh": "我有時忘了給植物澆水。"
+ },
+ {
+  "word": "die Blume",
+  "plural": "die Blumen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "花",
+  "example": "Zum Geburtstag schenke ich ihr Blumen.",
+  "example_zh": "生日我送她花。"
+ },
+ {
+  "word": "das Tier",
+  "plural": "die Tiere",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "動物",
+  "example": "In diesem Wald leben viele wilde Tiere.",
+  "example_zh": "這座森林裡住著許多野生動物。"
+ },
+ {
+  "word": "der Vogel",
+  "plural": "die Vögel",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "鳥",
+  "example": "Am Morgen singen die Vögel im Garten.",
+  "example_zh": "早上鳥兒在花園裡歌唱。"
+ },
+ {
+  "word": "das Insekt",
+  "plural": "die Insekten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "昆蟲",
+  "example": "Viele Insekten sind für die Natur unverzichtbar.",
+  "example_zh": "許多昆蟲對自然來說不可或缺。"
+ },
+ {
+  "word": "der Fluss",
+  "plural": "die Flüsse",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "河流",
+  "example": "Die Ruhr ist ein bekannter Fluss im Ruhrgebiet.",
+  "example_zh": "魯爾河是魯爾區有名的河流。"
+ },
+ {
+  "word": "der See",
+  "plural": "die Seen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "湖",
+  "example": "Im Sommer schwimmen wir oft im See.",
+  "example_zh": "夏天我們常在湖裡游泳。"
+ },
+ {
+  "word": "das Meer",
+  "plural": "die Meere",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "海",
+  "example": "Ich vermisse das Meer und den Strand.",
+  "example_zh": "我想念大海和沙灘。"
+ },
+ {
+  "word": "der Berg",
+  "plural": "die Berge",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "山",
+  "example": "Im Winter fahren wir zum Skifahren in die Berge.",
+  "example_zh": "冬天我們去山上滑雪。"
+ },
+ {
+  "word": "die Landschaft",
+  "plural": "die Landschaften",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "風景、地貌",
+  "example": "Die Landschaft in den Alpen ist atemberaubend.",
+  "example_zh": "阿爾卑斯山的風景令人屏息。"
+ },
+ {
+  "word": "die Energie",
+  "plural": "die Energien",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "能源、能量",
+  "example": "Erneuerbare Energie wird immer wichtiger.",
+  "example_zh": "再生能源變得越來越重要。"
+ },
+ {
+  "word": "erneuerbar",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "可再生的",
+  "example": "Solarenergie ist eine erneuerbare Energiequelle.",
+  "example_zh": "太陽能是一種可再生能源。"
+ },
+ {
+  "word": "das Recycling",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "回收再利用",
+  "example": "Durch Recycling spart man wertvolle Rohstoffe.",
+  "example_zh": "透過回收可以節省寶貴的原料。"
+ },
+ {
+  "word": "trennen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "分開、分類",
+  "example": "Wir trennen den Müll nach Papier, Glas und Plastik.",
+  "example_zh": "我們把垃圾按紙、玻璃和塑膠分類。"
+ },
+ {
+  "word": "die Verschmutzung",
+  "plural": "die Verschmutzungen",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "污染",
+  "example": "Die Verschmutzung der Meere ist ein großes Problem.",
+  "example_zh": "海洋污染是個大問題。"
+ },
+ {
+  "word": "verschmutzen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "污染",
+  "example": "Plastikmüll verschmutzt viele Strände.",
+  "example_zh": "塑膠垃圾污染了許多海灘。"
+ },
+ {
+  "word": "schützen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "保護",
+  "example": "Wir müssen die Wälder vor dem Feuer schützen.",
+  "example_zh": "我們必須保護森林免於火災。"
+ },
+ {
+  "word": "der Abfall",
+  "plural": "die Abfälle",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "廢棄物",
+  "example": "Der Abfall wird jeden Dienstag abgeholt.",
+  "example_zh": "廢棄物每週二被收走。"
+ },
+ {
+  "word": "nachhaltig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "永續的",
+  "example": "Das Unternehmen produziert möglichst nachhaltig.",
+  "example_zh": "這家公司盡可能以永續方式生產。"
+ },
+ {
+  "word": "die Sonnenenergie",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "太陽能",
+  "example": "Auf dem Dach nutzen sie Sonnenenergie.",
+  "example_zh": "他們在屋頂上利用太陽能。"
+ },
+ {
+  "word": "das Gewitter",
+  "plural": "die Gewitter",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "雷雨",
+  "example": "Am Nachmittag zog ein heftiges Gewitter auf.",
+  "example_zh": "下午來了一場猛烈的雷雨。"
+ },
+ {
+  "word": "der Blitz",
+  "plural": "die Blitze",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "閃電",
+  "example": "Ein Blitz schlug in den Baum ein.",
+  "example_zh": "一道閃電擊中了那棵樹。"
+ },
+ {
+  "word": "der Donner",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "雷聲",
+  "example": "Nach dem Blitz folgte lauter Donner.",
+  "example_zh": "閃電之後傳來響亮的雷聲。"
+ },
+ {
+  "word": "die Temperatur",
+  "plural": "die Temperaturen",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "溫度",
+  "example": "Die Temperatur fällt heute Nacht unter null.",
+  "example_zh": "今晚氣溫將降到零度以下。"
+ },
+ {
+  "word": "der Grad",
+  "plural": "die Grade",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "度",
+  "example": "Heute sind es angenehme zwanzig Grad.",
+  "example_zh": "今天是舒適的二十度。"
+ },
+ {
+  "word": "sonnig",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B1",
+  "zh": "晴朗的",
+  "example": "Morgen wird es sonnig und warm.",
+  "example_zh": "明天將會晴朗又溫暖。"
+ },
+ {
+  "word": "bewölkt",
+  "plural": "",
+  "type": "Adjektiv",
+  "level": "B2",
+  "zh": "多雲的",
+  "example": "Der Himmel ist heute stark bewölkt.",
+  "example_zh": "今天天空烏雲密布。"
+ },
+ {
+  "word": "die Ernte",
+  "plural": "die Ernten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "收成、收穫",
+  "example": "Wegen der Dürre fiel die Ernte schlecht aus.",
+  "example_zh": "因為乾旱，收成不佳。"
+ },
+ {
+  "word": "der Boden",
+  "plural": "die Böden",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "土壤、地面",
+  "example": "Der Boden hier ist besonders fruchtbar.",
+  "example_zh": "這裡的土壤特別肥沃。"
+ },
+ {
+  "word": "die Art",
+  "plural": "die Arten",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "物種、種類",
+  "example": "Viele Arten sind vom Aussterben bedroht.",
+  "example_zh": "許多物種面臨滅絕的威脅。"
+ },
+ {
+  "word": "aussterben",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "滅絕",
+  "example": "Ohne Schutz werden viele Tiere aussterben.",
+  "example_zh": "沒有保護許多動物將會滅絕。"
+ },
+ {
+  "word": "das Hochwasser",
+  "plural": "",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "洪水",
+  "example": "Das Hochwasser hat viele Häuser beschädigt.",
+  "example_zh": "洪水損毀了許多房屋。"
+ },
+ {
+  "word": "die Dürre",
+  "plural": "die Dürren",
+  "type": "Nomen",
+  "level": "B2",
+  "zh": "乾旱",
+  "example": "Die lange Dürre bedroht die Landwirtschaft.",
+  "example_zh": "長期乾旱威脅著農業。"
+ },
+ {
+  "word": "der Garten",
+  "plural": "die Gärten",
+  "type": "Nomen",
+  "level": "B1",
+  "zh": "花園",
+  "example": "Im Garten pflanzen wir Tomaten und Kräuter.",
+  "example_zh": "我們在花園裡種番茄和香草。"
+ },
+ {
+  "word": "frieren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "結冰、感到冷",
+  "example": "Bei diesem Wind friere ich schnell.",
+  "example_zh": "這種風下我很快就覺得冷。"
+ },
+ {
+  "word": "vermeiden",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "避免",
+  "example": "Man sollte unnötigen Stress vermeiden.",
+  "example_zh": "人們應該避免不必要的壓力。"
+ },
+ {
+  "word": "beeinflussen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "影響",
+  "example": "Das Wetter beeinflusst oft meine Laune.",
+  "example_zh": "天氣常常影響我的心情。"
+ },
+ {
+  "word": "sich lohnen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "值得",
+  "example": "Die Mühe hat sich am Ende gelohnt.",
+  "example_zh": "這番努力最後是值得的。"
+ },
+ {
+  "word": "erreichen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "達到、聯繫到",
+  "example": "Mit Fleiß kann man viele Ziele erreichen.",
+  "example_zh": "靠勤奮可以達到許多目標。"
+ },
+ {
+  "word": "verbessern",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "改善",
+  "example": "Ich möchte mein Deutsch weiter verbessern.",
+  "example_zh": "我想繼續改善我的德文。"
+ },
+ {
+  "word": "entscheiden",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "決定",
+  "example": "Ich kann mich nicht zwischen beiden entscheiden.",
+  "example_zh": "我無法在兩者之間做出決定。"
+ },
+ {
+  "word": "erlauben",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "允許",
+  "example": "Meine Eltern erlauben mir das nicht.",
+  "example_zh": "我父母不允許我這麼做。"
+ },
+ {
+  "word": "verbieten",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "禁止",
+  "example": "Das Rauchen ist in diesem Gebäude verboten.",
+  "example_zh": "這棟建築內禁止吸菸。"
+ },
+ {
+  "word": "berücksichtigen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "考慮到、顧及",
+  "example": "Wir müssen alle Kosten berücksichtigen.",
+  "example_zh": "我們必須考慮到所有成本。"
+ },
+ {
+  "word": "sich beschweren",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "抱怨、投訴",
+  "example": "Er beschwerte sich über den lauten Lärm.",
+  "example_zh": "他抱怨噪音太大。"
+ },
+ {
+  "word": "erwähnen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "提及",
+  "example": "Sie hat das Problem im Meeting kurz erwähnt.",
+  "example_zh": "她在會議中簡短提到了這個問題。"
+ },
+ {
+  "word": "vergleichen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "比較",
+  "example": "Bevor ich kaufe, vergleiche ich immer die Preise.",
+  "example_zh": "買之前我總是比較價格。"
+ },
+ {
+  "word": "überzeugen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "說服",
+  "example": "Er konnte den Chef von seiner Idee überzeugen.",
+  "example_zh": "他成功說服老闆接受他的想法。"
+ },
+ {
+  "word": "sich verlassen auf",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "依賴、信賴",
+  "example": "Auf ihn kann man sich immer verlassen.",
+  "example_zh": "他總是值得信賴。"
+ },
+ {
+  "word": "gelingen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "成功、辦成",
+  "example": "Der Kuchen ist mir dieses Mal gut gelungen.",
+  "example_zh": "這次蛋糕我做得很成功。"
+ },
+ {
+  "word": "scheitern",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "失敗",
+  "example": "Das Projekt ist an Geldmangel gescheitert.",
+  "example_zh": "這個專案因缺錢而失敗。"
+ },
+ {
+  "word": "sich bemühen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "努力、盡力",
+  "example": "Sie bemüht sich sehr um eine gute Note.",
+  "example_zh": "她很努力想拿到好成績。"
+ },
+ {
+  "word": "verzichten auf",
+  "plural": "",
+  "type": "Verb",
+  "level": "B2",
+  "zh": "放棄、捨棄",
+  "example": "Ich verzichte abends auf Kaffee.",
+  "example_zh": "晚上我不喝咖啡。"
+ },
+ {
+  "word": "vorschlagen",
+  "plural": "",
+  "type": "Verb",
+  "level": "B1",
+  "zh": "建議、提議",
+  "example": "Ich schlage vor, dass wir morgen anfangen.",
+  "example_zh": "我建議我們明天開始。"
+ },
+ {
+  "word": "trotzdem",
+  "plural": "",
+  "type": "Adverb",
+  "level": "B1",
+  "zh": "儘管如此、還是",
+  "example": "Es regnete, trotzdem gingen wir spazieren.",
+  "example_zh": "下著雨，我們還是去散步了。"
+ },
+ {
+  "word": "deshalb",
+  "plural": "",
+  "type": "Adverb",
+  "level": "B1",
+  "zh": "因此",
+  "example": "Ich war krank, deshalb bin ich zu Hause geblieben.",
+  "example_zh": "我生病了，因此待在家裡。"
+ },
+ {
+  "word": "dennoch",
+  "plural": "",
+  "type": "Adverb",
+  "level": "B2",
+  "zh": "然而、仍然",
+  "example": "Die Aufgabe war schwer, dennoch hat er sie gelöst.",
+  "example_zh": "任務很難，然而他還是解決了。"
+ }
 ]
